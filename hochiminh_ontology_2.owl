@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#coTacPham -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#coTacPham">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#coTen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#coTen">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#diaDiem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#diaDiem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#SuKien"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#dienRaSuKien -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#dienRaSuKien">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TieuSu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#SuKien"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#giaDinh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#giaDinh">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#giuChucVu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#giuChucVu">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ChucVuTrongDang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#kyTen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#kyTen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#lamCongViec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#lamCongViec">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#CongViec"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#loaiAnh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#loaiAnh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#HinhAnh"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#LoaiAnh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#nguonTrichDan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#nguonTrichDan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TieuSu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#phatBieu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#phatBieu">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#BaiPhatBieu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#theLoai -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#theLoai">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TheLoaiVanHoc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#thuocQuocGia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#thuocQuocGia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#QuocGia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#thuocTinhThanh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#thuocTinhThanh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TinhThanh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#tieuSu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#tieuSu">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TieuSu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#veNhanVat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#veNhanVat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#SuKien"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#coTheLoai -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#coTheLoai">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TheLoaiVanHoc"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TheLoaiVanHoc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#thuocLoaiAnh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#thuocLoaiAnh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#LoaiAnh"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#LoaiAnh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#giaiDoan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#giaiDoan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#HinhAnh"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TieuSu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#thoiGian -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#thoiGian">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#CongViec"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#SuKien"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#chucVu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#chucVu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ChucVuTrongDang"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#diaChiCuThe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#diaChiCuThe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#hienVat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#hienVat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#HinhAnh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#keNhiem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#keNhiem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ChucVuTrongDang"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#lienKet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#lienKet">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#AmNhac"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#BaiPhatBieu"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#HinhAnh"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#PhimTaiLieu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#moiQuanHeVoiBac -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#moiQuanHeVoiBac">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#ngaySinh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#ngaySinh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#ngonNgu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#ngonNgu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nguoiBieuDien -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nguoiBieuDien">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#AmNhac"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nguon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nguon">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#PhimTaiLieu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nhaXuatBan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nhaXuatBan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nhacSi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nhacSi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#AmNhac"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nhiemKy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#nhiemKy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ChucVuTrongDang"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiDungVanBan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiDungVanBan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#BaiPhatBieu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiLamViec -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiLamViec">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#CongViec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiPhatHanh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiPhatHanh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiSangTac -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiSangTac">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiSinh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#noiSinh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#suKien -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#suKien">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#SuKien"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenBaiHat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenBaiHat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#AmNhac"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenCongViec -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenCongViec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#CongViec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenGoi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenGoi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenKhac -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenKhac">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenKhaiSinh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenKhaiSinh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenQuocGia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenQuocGia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#QuocGia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenTacGia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenTacGia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenTacPham -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenTacPham">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenTinhThanh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tenTinhThanh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TinhThanh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#thoiLuong -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#thoiLuong">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#AmNhac"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#BaiPhatBieu"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#PhimTaiLieu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tienNhiem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tienNhiem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ChucVuTrongDang"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tieuDe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tieuDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#PhimTaiLieu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#AmNhac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#AmNhac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamVeBac"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#BaiPhatBieu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#BaiPhatBieu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ChucVuTrongDang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ChucVuTrongDang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#CongViec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#CongViec"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#GiaDinh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#HinhAnh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#HinhAnh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#LoaiAnh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#LoaiAnh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#PhimTaiLieu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#PhimTaiLieu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamVeBac"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#QuocGia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#QuocGia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#SuKien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#SuKien"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamCuaBac"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamVeBac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamVeBac"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#Ten"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TheLoaiVanHoc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TheLoaiVanHoc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#ThoVanTuyenTap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TacPhamVeBac"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TieuSu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TieuSu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TinhThanh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#TinhThanh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2022/3/untitled-ontology-7#DiaDiem"/>
+    </owl:Class>
+    
+
+
+    <!-- https://dbpedia.org/ontology/Person -->
+
+    <owl:Class rdf:about="https://dbpedia.org/ontology/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://dbpedia.org/page/Ho_Chi_Minh -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Ho_Chi_Minh">
+        <rdf:type rdf:resource="https://dbpedia.org/ontology/Person"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
