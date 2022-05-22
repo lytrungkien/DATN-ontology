@@ -1346,11 +1346,11 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh dùng bút danh này viết bài “Đảng Ta” đăng trên tạp chí Sinh Hoạt Nội Bộ số 13</suKien>
 </Ten>
 
-<Ten rdf:about="#nan">
+<Ten rdf:about="#Tran_Luc">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1949-1958 và 1961</thoiGian>
-  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">Trần Lực</tenGoi>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này đã viết gần 70 bài báo và các tác phẩm ngắn như “Giấc Ngủ 10 Năm”, “Liên Xô Vĩ Đại”, “Đạo Đức Cách Mạng”…</suKien>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trần Lực</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh  này đã viết gần 70 bài báo và các tác phẩm ngắn như “Giấc Ngủ 10 Năm”, “Liên Xô Vĩ Đại”, “Đạo Đức Cách Mạng”…</suKien>
 </Ten>
 
 <Ten rdf:about="#Le_Nhan">
@@ -1910,13 +1910,6 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Di chúc</tenTacPham>
   <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
 </TacPhamCuaBac>
-
-<Ten rdf:about="#Tran_Luc">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1949-1958 và 1961</thoiGian>
-  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trần Lực</tenGoi>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh  này đã viết gần 70 bài báo và các tác phẩm ngắn như “Giấc Ngủ 10 Năm”, “Liên Xô Vĩ Đại”, “Đạo Đức Cách Mạng”…</suKien>
-</Ten>
 
 
 </rdf:RDF>
