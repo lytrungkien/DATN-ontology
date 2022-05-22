@@ -1,0 +1,1924 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/admin/ontologies/ho-chi-minh"
+         xmlns="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#"
+         xmlns:onto="https://dbpedia.org/ontology/">
+
+<owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh"/>
+
+<owl:ObjectProperty rdf:about="#coTacPham">
+  <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+  <rdfs:range rdf:resource="#TacPhamCuaBac"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#coTen">
+  <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+  <rdfs:range rdf:resource="#Ten"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#diaDiem">
+  <rdfs:domain rdf:resource="#SuKien"/>
+  <rdfs:range rdf:resource="#DiaDiem"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#dienRaSuKien">
+  <rdfs:domain rdf:resource="#HinhAnh"/>
+  <rdfs:domain rdf:resource="#TieuSu"/>
+  <rdfs:range rdf:resource="#SuKien"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#giaDinh">
+  <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+  <rdfs:range rdf:resource="#GiaDinh"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#giuChucVu">
+  <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+  <rdfs:range rdf:resource="#ChucVuTrongDang"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#kyTen">
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:range rdf:resource="#Ten"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#lamCongViec">
+  <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+  <rdfs:range rdf:resource="#CongViec"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#loaiAnh">
+  <rdfs:domain rdf:resource="#HinhAnh"/>
+  <rdfs:range rdf:resource="#LoaiAnh"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#nguonTrichDan">
+  <rdfs:domain rdf:resource="#TieuSu"/>
+  <rdfs:range rdf:resource="#ThoVanTuyenTap"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#phatBieu">
+  <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+  <rdfs:range rdf:resource="#BaiPhatBieu"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#tenGoi">
+  <rdfs:domain rdf:resource="#CongViec"/>
+  <rdfs:range rdf:resource="#Ten"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  <rdfs:domain rdf:resource="#Ten"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#theLoai">
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:domain rdf:resource="#ThoVanTuyenTap"/>
+  <rdfs:range rdf:resource="#TheLoaiVanHoc"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#thuocQuocGia">
+  <rdfs:domain rdf:resource="#DiaDiem"/>
+  <rdfs:range rdf:resource="#QuocGia"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#thuocTinhThanh">
+  <rdfs:domain rdf:resource="#DiaDiem"/>
+  <rdfs:range rdf:resource="#TinhThanh"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#tieuSu">
+  <rdfs:domain rdf:resource="https://dbpedia.org/ontology/Person"/>
+  <rdfs:range rdf:resource="#TieuSu"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#chucVu">
+  <rdfs:domain rdf:resource="#ChucVuTrongDang"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#diaChiCuThe">
+  <rdfs:domain rdf:resource="#DiaDiem"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#giaiDoan">
+  <rdfs:domain rdf:resource="#HinhAnh"/>
+  <rdfs:domain rdf:resource="#TieuSu"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hienVat">
+  <rdfs:domain rdf:resource="#HinhAnh"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#keNhiem">
+  <rdfs:domain rdf:resource="#ChucVuTrongDang"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#lienKet">
+  <rdfs:domain rdf:resource="#AmNhac"/>
+  <rdfs:domain rdf:resource="#BaiPhatBieu"/>
+  <rdfs:domain rdf:resource="#HinhAnh"/>
+  <rdfs:domain rdf:resource="#PhimTaiLieu"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#moiQuanHeVoiBac">
+  <rdfs:domain rdf:resource="#GiaDinh"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ngaySinh">
+  <rdfs:domain rdf:resource="#GiaDinh"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ngonNgu">
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#nguoiBieuDien">
+  <rdfs:domain rdf:resource="#AmNhac"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#nguon">
+  <rdfs:domain rdf:resource="#PhimTaiLieu"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#nhaXuatBan">
+  <rdfs:domain rdf:resource="#ThoVanTuyenTap"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#nhacSi">
+  <rdfs:domain rdf:resource="#AmNhac"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#nhiemKy">
+  <rdfs:domain rdf:resource="#ChucVuTrongDang"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#noiDungVanBan">
+  <rdfs:domain rdf:resource="#BaiPhatBieu"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#noiLamViec">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:domain rdf:resource="#CongViec"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#noiPhatHanh">
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#noiSangTac">
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#noiSinh">
+  <rdfs:domain rdf:resource="#GiaDinh"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#suKien">
+  <rdfs:domain rdf:resource="#SuKien"/>
+  <rdfs:domain rdf:resource="#Ten"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenBaiHat">
+  <rdfs:domain rdf:resource="#AmNhac"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenCongViec">
+  <rdfs:domain rdf:resource="#CongViec"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenKhac">
+  <rdfs:domain rdf:resource="#GiaDinh"/>
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenKhaiSinh">
+  <rdfs:domain rdf:resource="#GiaDinh"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenLoaiAnh">
+  <rdfs:domain rdf:resource="#LoaiAnh"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenQuocGia">
+  <rdfs:domain rdf:resource="#QuocGia"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenTacGia">
+  <rdfs:domain rdf:resource="#ThoVanTuyenTap"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenTacPham">
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:domain rdf:resource="#ThoVanTuyenTap"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenTheLoaiVanHoc">
+  <rdfs:domain rdf:resource="#TheLoaiVanHoc"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tenTinhThanh">
+  <rdfs:domain rdf:resource="#TinhThanh"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#thoiGian">
+  <rdfs:domain rdf:resource="#CongViec"/>
+  <rdfs:domain rdf:resource="#SuKien"/>
+  <rdfs:domain rdf:resource="#TacPhamCuaBac"/>
+  <rdfs:domain rdf:resource="#Ten"/>
+  <rdfs:domain rdf:resource="#ThoVanTuyenTap"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#thoiLuong">
+  <rdfs:domain rdf:resource="#AmNhac"/>
+  <rdfs:domain rdf:resource="#BaiPhatBieu"/>
+  <rdfs:domain rdf:resource="#PhimTaiLieu"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tienNhiem">
+  <rdfs:domain rdf:resource="#ChucVuTrongDang"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tieuDe">
+  <rdfs:domain rdf:resource="#PhimTaiLieu"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#veNhanVat">
+  <rdfs:domain rdf:resource="#SuKien"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="https://dbpedia.org/ontology/Person"/>
+
+<owl:Class rdf:about="#TacPhamCuaBac"/>
+
+<owl:Class rdf:about="#Ten"/>
+
+<owl:Class rdf:about="#SuKien"/>
+
+<owl:Class rdf:about="#DiaDiem"/>
+
+<owl:Class rdf:about="#HinhAnh"/>
+
+<owl:Class rdf:about="#TieuSu"/>
+
+<owl:Class rdf:about="#GiaDinh"/>
+
+<owl:Class rdf:about="#ChucVuTrongDang"/>
+
+<owl:Class rdf:about="#CongViec"/>
+
+<owl:Class rdf:about="#LoaiAnh"/>
+
+<owl:Class rdf:about="#ThoVanTuyenTap">
+  <rdfs:subClassOf rdf:resource="#TacPhamVeBac"/>
+</owl:Class>
+
+<owl:Class rdf:about="#BaiPhatBieu"/>
+
+<owl:Class rdf:about="#TheLoaiVanHoc"/>
+
+<owl:Class rdf:about="#QuocGia">
+  <rdfs:subClassOf rdf:resource="#DiaDiem"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TinhThanh">
+  <rdfs:subClassOf rdf:resource="#DiaDiem"/>
+</owl:Class>
+
+<owl:Class rdf:about="#AmNhac">
+  <rdfs:subClassOf rdf:resource="#TacPhamVeBac"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PhimTaiLieu">
+  <rdfs:subClassOf rdf:resource="#TacPhamVeBac"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TacPhamVeBac"/>
+
+<onto:Person rdf:about="https://dbpedia.org/page/Ho_Chi_Minh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</onto:Person>
+
+<GiaDinh rdf:about="#Nguyen_Sinh_Cung">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Ten"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Cung</tenKhaiSinh>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Côn</tenKhac>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19-5-1890</ngaySinh>
+  <noiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quê ngoại, làng Hoàng Trù, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An</noiSinh>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Cung</tenGoi>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1890</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trong một bài viết của Hồ Chí Minh, năm 1954, Bác Hồ cũng ghi tên còn nhỏ của mình là Nguyễn Sinh Côn.</suKien>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Nguyen_Sinh_Sac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Sắc</tenKhaiSinh>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Huy, Cụ Phó bảng</tenKhac>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1862 - 1929</ngaySinh>
+  <noiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">làng Kim Liên (thường gọi là làng Sen) xã Chung Cự, nay là xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An</noiSinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cha</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Hoang_Thi_Loan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoàng Thị Loan</tenKhaiSinh>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1868-1901</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mẹ</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Nguyen_Thi_Thanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Thị Thanh</tenKhaiSinh>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bạch Liên nữ sĩ</tenKhac>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1884-1954</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chị cả</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Nguyen_Sinh_Khiem">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Khiêm</tenKhaiSinh>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cả Khiêm, Nguyễn Tất Đạt</tenKhac>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1888-1950</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anh trai</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Nguyen_Sinh_Nhuan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Nhuận</tenKhaiSinh>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bé Xin</tenKhac>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1900–1901</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Em trai</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Nguyen_Sinh_Nham">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Sinh Nhậm</tenKhaiSinh>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1827–1870</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ông nội</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Ha_Thi_Hy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hà Thị Hy</tenKhaiSinh>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cô Đền</tenKhac>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chưa rõ</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bà nộ</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Hoang_Xuan_Duong">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoàng Xuân Đường</tenKhaiSinh>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1835 - 22 tháng 5 năm 1893</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ông ngoại</moiQuanHeVoiBac>
+</GiaDinh>
+
+<GiaDinh rdf:about="#Nguyen_Thi_Kep">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenKhaiSinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Thị Kép</tenKhaiSinh>
+  <ngaySinh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mất ngày 13 tháng 4 năm 1904</ngaySinh>
+  <moiQuanHeVoiBac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bà ngoại</moiQuanHeVoiBac>
+</GiaDinh>
+
+<BaiPhatBieu rdf:about="#baiphatbieu1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 2/9/1945</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh, Chủ tịch lâm thời nước Việt Nam dân chủ cộng hòa đọc bản “Tuyên ngôn độc lập” tại Quảng trường Ba Đình, Hà Nội</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/01%20-%20Tuyen%20ngon%20doc%20lap_103854.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">442</thoiLuong>
+  <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào cả nước,
+"Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền  ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc".
+Lời bất hủ ấy ở trong bản Tuyên ngôn độc lập năm 1776 của nước Mỹ. Suy rộng ra, câu ấy có ý nghĩa là: tất cả các dân tộc trên thế giới đều sinh ra bình đẳng; dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do.
+Bản Tuyên ngôn nhân quyền và dân quyền của Cách mạng Pháp năm 1791 cũng nói:
+"Người ta sinh ra tự do và bình đẳng về quyền lợi, và phải luôn luôn được tự do và bình đẳng về quyền lợi".
+Đó là những lẽ phải không ai chối cãi được.
+Thế mà hơn tám mươi năm nay, bọn thực dân Pháp lợi dụng lá cờ tự do, bình đẳng, bác ái, đến cướp đất nước ta, áp bức đồng bào ta. Hành động của chúng trái hẳn với nhân đạo và chính nghĩa.
+Về chính trị, chúng tuyệt đối không cho nhân dân ta một chút tự do dân chủ nào.
+Chúng thi hành những luật pháp dã man. Chúng lập ba chế độ khác nhau ở Trung, Nam, Bắc để ngăn cản việc thống nhất nước nhà của ta, để ngăn cản dân tộc ta đoàn kết.
+Chúng lập ra nhà tù nhiều hơn trường học. Chúng thẳng tay chém giết những người yêu nước thương nòi của ta. Chúng tắm các cuộc khởi nghĩa của ta trong những bể máu.
+Chúng ràng buộc dư luận, thi hành chính sách ngu dân.
+Chúng dùng thuốc phiện, rượu cồn để làm cho nòi giống ta suy nhược.
+Về kinh tế, chúng bóc lột dân ta đến tận xương tủy, khiến cho dân ta nghèo nàn, thiếu thốn, nước ta xơ xác, tiêu điều.
+Chúng cướp không ruộng đất, hầm mỏ, nguyên liệu.
+Chúng giữ độc quyền in giấy bạc, xuất cảng và nhập cảng.
+Chúng đặt ra hàng trăm thứ thuế vô lý, làm cho dân ta, nhất là dân cày và dân buôn, trở nên bần cùng.
+Chúng không cho các nhà tư sản ta ngóc đầu lên. Chúng bóc lột công nhân ta một cách vô cùng tàn nhẫn.
+Mùa thu năm 1940, phát-xít Nhật đến xâm lăng Đông - Dương để mở thêm căn cứ đánh Đồng minh, thì bọn thực dân Pháp quỳ gối đầu hàng, mở cửa nước ta rước Nhật. Từ đó dân ta chịu hai tầng xiềng xích: Pháp và Nhật. Từ đó dân ta càng cực khổ, nghèo nàn. Kết quả là cuối năm ngoái sang đầu năm nay, từ Quảng trị đến Bắc kỳ hơn hai triệu đồng bào ta bị chết đói.
+Ngày 9 tháng 3 năm nay, Nhật tước khí giới của quân đội Pháp. Bọn thực dân Pháp hoặc bỏ chạy hoặc đầu hàng. Thế là chẳng những chúng không "bảo hộ" được ta, trái lại, trong 5 năm, chúng đã bán nước ta hai lần cho Nhật.
+Trước ngày mồng 9 tháng 3, biết bao lần Việt minh đã kêu gọi người Pháp liên minh để chống Nhật. Bọn thực dân Pháp đã không đáp ứng, lại thẳng tay khủng bố Việt minh hơn nữa.
+Thậm chí đến khi thua chạy, chúng còn nhẫn tâm giết nốt số đông tù chính trị ở Yên Bái và Cao Bằng.
+Tuy vậy, đối với nước Pháp, đồng bào ta vẫn giữ một thái độ khoan hồng và nhân đạo. Sau cuộc biến động ngày mồng 9 tháng 3, Việt minh đã giúp cho nhiều người Pháp chạy qua biên thùy, lại cứu cho nhiều người Pháp ra khỏi nhà giam Nhật, và bảo vệ tính mạng và tài sản cho họ.
+Sự thật là từ mùa thu năm 1940, nước ta đã thành thuộc địa của Nhật, chứ không phải thuộc địa của Pháp nữa. Khi Nhật hàng Đồng minh thì nhân dân cả nước ta đã nổi dậy giành chính quyền lập nên nước Việt Nam Dân chủ Cộng hòa.
+Sự thật là dân ta đã lấy lại nước Việt Nam từ tay Nhật, chứ không phải từ tay Pháp.
+Pháp chạy, Nhật hàng, vua Bảo Đại thoái vị. Dân ta đã đánh đổ các xiềng xích thực dân gần một trăm năm nay để gây dựng nên nước Việt Nam độc lập. Dân ta lại đánh đổ chế độ quân chủ mấy mươi thế kỷ mà lập nên chế độ dân chủ cộng hòa.
+Bởi thế cho nên, chúng tôi, Lâm thời Chính phủ của nước Việt Nam mới, đại biểu cho toàn dân Việt Nam, tuyên bố thoát ly hẳn quan hệ với Pháp, xóa bỏ hết những hiệp ước mà Pháp đã ký về nước Việt Nam, xóa bỏ tất cả mọi đặc quyền của Pháp trên đất nước Việt Nam.
+Toàn dân Việt Nam, trên dưới một lòng, kiên quyết chống lại âm mưu của bọn thực dân Pháp.
+Chúng tôi tin rằng các nước Đồng minh đã công nhận những nguyên tắc dân tộc bình đẳng ở các Hội nghị Tê-hê-răng và Cựu-kim-sơn, quyết không thể không công nhận quyền độc lập của dân Việt Nam.
+Một dân tộc đã gan góc chống ách nô lệ của Pháp hơn tám mươi năm nay, một dân tộc đã gan góc đứng về phe Đồng minh chống phát-xít mấy năm nay, dân tộc đó phải được tự do ! Dân tộc đó phải được độc lập !
+Vì những lẽ trên, chúng tôi, Chính phủ Lâm thời của nước Việt Nam Dân chủ Cộng hòa, trịnh trọng tuyên bố với thế giới rằng:
+Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do, độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy.</noiDungVanBan>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 19/12/1946</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh đọc lời kêu gọi toàn quốc kháng chiến</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/02_HCM_DocLoiKeuGoiToanQuocKhangChien_.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</thoiLuong>
+  <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào toàn quốc! Chúng ta muốn hoà bình, chúng ta đã nhân nhượng. Nhưng chúng ta càng nhân nhượng, thực dân Pháp càng lấn tới, vì chúng quyết tâm cướp nước ta một lần nữa! Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ. Hỡi đồng bào! Chúng ta phải đứng lên! Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp, cứu Tổ quốc. Ai có súng dùng súng. Ai có gươm dùng gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc. Ai cũng phải ra sức chống thực dân Pháp cứu nước. Hỡi anh em binh sĩ, tự vệ, dân quân! Giờ cứu quốc đã đến. Ta phải hy sinh đến giọt máu cuối cùng, để giữ gìn đất nước. Dù phải gian khổ kháng chiến, nhưng với một lòng kiên quyết hy sinh, thắng lợi nhất định về dân tộc ta! Việt Nam độc lập và thống nhất muôn năm Kháng chiến thắng lợi muôn năm</noiDungVanBan>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 31/12/1959</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại cuộc mít tinh của nhân dân thủ đô Hà Nội sau khi kỳ họp Quốc hội khóa I thông qua bản Hiến pháp mới</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/03_HCM_NoiChuyenTaiCuocMitTinhCuaNhanDanThuDo.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 5/1/1960</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh phát biểu tại Lễ kỷ niệm 30 năm thành lập Đảng Cộng sản Việt Nam (3/2/1930 - 3/2/1960) tại thủ đô Hà Nội</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/04_HCM_PhatBieuTaiLeKyNiemLanThu30NamNgayTLDLDVN.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">691</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 9/3/1960</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại Đại hội Phụ nữ toàn quốc lần thứ III</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/05_HCM_NoiChuyenTaiDaiHoiPhuNuToanQuocLanThu3.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">592</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 17/7/1966</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh đọc Lời kêu gọi toàn quốc chống Mỹ cứu nước</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/08_HCM_DocLoiKeuGoiChongMyCuuNuoc.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243</thoiLuong>
+  <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào và chiến sĩ cả nước! Đế quốc Mỹ dã man, gây ra chiến tranh xâm lược hòng ǎn cướp nước ta, nhưng chúng đang thua to. Chúng ồ ạt mang gần 30 vạn quân viễn chinh vào miền Nam nước ta. Chúng nuôi dưỡng nguỵ quyền nguỵ quân làm công cụ hại dân phản nước. Chúng dùng những phương tiện chiến tranh cực kỳ man rợ, như chất độc hoá học, bom napan, v.v.. Chúng dùng chính sách đốt sạch, giết sạch, phá sạch. Bằng những tội ác ấy, chúng hòng khuất phục đồng bào miền Nam ta. Nhưng dưới sự lãnh đạo kiên quyết và khôn khéo của Mặt trận dân tộc giải phóng, quân và dân miền Nam ta đoàn kết chặt chẽ, chiến đấu anh dũng, đã thắng lợi vẻ vang và quyết tâm chiến đấu đến thắng lợi hoàn toàn, để giải phóng miền Nam, bảo vệ miền Bắc, tiến tới thống nhất nước nhà. ........... Chiến tranh có thể kéo dài 5 năm, 10 năm, 20 năm hoặc lâu hơn nữa, Hà Nội, Hải Phòng và một số thành phố, xí nghiệp có thể bị tàn phá, song nhân dân Việt Nam quyết không sợ, không có gì quý hơn độc lập tự do! ....... Đồng bào và chiến sĩ yêu quý! Chúng ta có chính nghĩa, có sức mạnh đoàn kết của toàn dân từ Bắc đến Nam, có truyền thống đấu tranh bất khuất, lại có sự đồng tình ủng hộ rộng lớn của các nước xã hội chủ nghĩa anh em và nhân dân tiến bộ cả thế giới, chúng ta nhất định thắng! Trước tình hình mới, chúng ta quyết đồng tâm nhất trí, vượt mọi gian khổ hy sinh, kiên quyết hoàn thành nhiệm vụ lịch sử vẻ vang của dân tộc ta là đánh thắng giặc Mỹ xâm lược! ... Nhân dân Việt Nam nhất định thắng! Giặc Mỹ xâm lược nhất định thua! Việt Nam hoà bình, thống nhất, độc lập, dân chủ và giàu mạnh muôn nǎm! Đồng bào và chiến sĩ cả nước, anh dũng tiến lên!</noiDungVanBan>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1968</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới Mậu Thân</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/09_HCM_ChucMungNamMoiMauThan1968.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1969</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới Kỷ Dậu</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/10_HCM_DocThuChucMungNamMoi1969.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1955</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chủ tịch chúc mừng năm mới</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/04%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201955.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu10">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1957</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/06%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%20%20xuan%20Dinh%20Dau%201957.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu11">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1958</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/07%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201958.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu12">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1962</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới xuân Nhâm Dần</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/09%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Nham%20Dan%201962.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu13">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1963</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời chúc tết đồng bào nhân dịp đầu xuân Quý Mão</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/10%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Quy%20Mao%201963.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu14">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1964</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời chúc tết đồng bào nhân dịp đầu xuân Giáp Thìn</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/11%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Giap%20Thin%201964.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu15">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1967</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/12%20-%20Ho%20Chu%20Tich%20chuc%20%20mung%20nam%20moi%201967.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu16">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1956</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ chủ tịch chúc mừng năm mới</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/05%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201956.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu17">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1961</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc Tết đồng bào nhân dịp đầu xuân Tân Sửu</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/08%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Tan%20Suu%201961.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</thoiLuong>
+</BaiPhatBieu>
+
+<BaiPhatBieu rdf:about="#baiphatbieu18">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1961</thoiGian>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại Đại hội đại biểu Phụ nữ toàn quốc lần thứ III</suKien>
+  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/18%20-%20Bai%20noi%20chuyen%20tai%20dai%20hoi%20Phu%20nu%20toan%20quoc%20lan%20III.mp3</lienKet>
+  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540</thoiLuong>
+</BaiPhatBieu>
+
+<ChucVuTrongDang rdf:about="#Chu_tich_Dang_Lao_dong_Viet_Nam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <chucVu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Đảng Lao động Việt Nam</chucVu>
+  <nhiemKy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 tháng 2 năm 1951 – 2 tháng 9 năm 1969</nhiemKy>
+  <tienNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chức vụ thành lập</tienNhiem>
+  <keNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chức vụ bị bãi bỏ</keNhiem>
+</ChucVuTrongDang>
+
+<ChucVuTrongDang rdf:about="#Tong_Bi_thu_Ban_Chap_hanh_Trung_uong_Dang_Lao_dong_Viet_Nam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <chucVu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tổng Bí thư Ban Chấp hành Trung ương Đảng Lao động Việt Nam</chucVu>
+  <nhiemKy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 tháng 11 năm 1956 – 10 tháng 9 năm 1960</nhiemKy>
+  <tienNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trường Chinh</tienNhiem>
+  <keNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lê Duẩn</keNhiem>
+</ChucVuTrongDang>
+
+<ChucVuTrongDang rdf:about="#Chu_tich_nuoc_dau_tien_cua_Viet_Nam_Dan_chu_Cong_hoa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <chucVu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch nước đầu tiên của Việt Nam Dân chủ Cộng hòa</chucVu>
+  <nhiemKy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 tháng 9 năm 1945 – 2 tháng 9 năm 1969</nhiemKy>
+  <tienNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chức vụ thành lập</tienNhiem>
+  <keNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tôn Đức Thắng</keNhiem>
+</ChucVuTrongDang>
+
+<ChucVuTrongDang rdf:about="#Thu_tuong_dau_tien_cua_Viet_Nam_Dan_chu_Cong_hoa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <chucVu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thủ tướng đầu tiên của Việt Nam Dân chủ Cộng hòa</chucVu>
+  <nhiemKy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 tháng 9 năm 1945 – 20 tháng 9 năm 1955</nhiemKy>
+  <tienNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chức vụ thành lập</tienNhiem>
+  <keNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phạm Văn Đồng</keNhiem>
+</ChucVuTrongDang>
+
+<ChucVuTrongDang rdf:about="#Bo_truong_bo_ngoai_giao">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <chucVu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bộ trưởng bộ ngoại giao</chucVu>
+  <nhiemKy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 tháng 8 năm 1945 – 2 tháng 3 năm 1946</nhiemKy>
+  <tienNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trần Văn Chương (Đế quốc Việt Nam)</tienNhiem>
+  <keNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Tường Tam</keNhiem>
+</ChucVuTrongDang>
+
+<ChucVuTrongDang rdf:about="#Uy_vien_Bo_Chinh_tri_khoa_2_va_3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <chucVu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ủy viên Bộ Chính trị khóa 2 và 3</chucVu>
+  <nhiemKy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31 tháng 3 năm 1935 – 2 tháng 9 năm 1969</nhiemKy>
+  <tienNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">None</tienNhiem>
+  <keNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">None</keNhiem>
+</ChucVuTrongDang>
+
+<Ten rdf:about="#Nguyen_Tat_Thanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tháng 9, 1901</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Tất Thành</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ông Nguyễn Sinh Sắc, cha Nguyễn Sinh Cung, đỗ Phó bảng và chuyển về sống ở làng Kim Liên, ông làm lễ “chào làng” cho hai con trai với tên mới</suKien>
+</Ten>
+
+<Ten rdf:about="#Nguyen_Van_Thanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Văn Thành</tenGoi>
+</Ten>
+
+<Ten rdf:about="#Nguyen_Be_Con">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Năm1920</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Bé Con</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trong tài liệu đề ngày 6 tháng 2, 1920 của Tổng đốc Vinh cung cấp về Nguyễn Sinh Sắc và hai con trai có ghi con trai thứ của Nguyễn Sinh Sắc là tên này. Tài liệu mật thám Pháp theo dõi hoạt động của Nguyễn Ái Quốc, bản ghi số 1116, 1931: Nguyễn Ái Quốc hay Nguyễn Tất Thành tức Nguyễn Sinh Côn hay Nguyễn Bé Con tức Lý Thụy…</suKien>
+</Ten>
+
+<Ten rdf:about="#Van_Ba">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 5/6/1911</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Văn Ba</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">khi làm phụ bếp trên tàu tàu Đô đốc Latouche Teverille, tên ghi trong sổ lương của tàu.</suKien>
+</Ten>
+
+<Ten rdf:about="#Paul_Tat_Thanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 15 tháng 12 năm 1912</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul Tat Thanh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tại New York, Nguyễn Tất Thành gửi thư cho khâm sứ Trung Kỳ nhờ tìm địa chỉ của thân phụ là Nguyễn Sinh Huy, lá thư ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Tat_Thanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1914</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tất Thành</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tại nước Anh, Nguyễn Tất Thành gửi thư cho Phan Chu Trinh ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Paul_Thanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 16 tháng 4 năm 1915</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul Thanh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Tất Thành viết thư cho toàn quyền Đông Dương qua lãnh sự Anh tại Saigon nhờ tìm địa chỉ cha mình. Thư ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Nguyen_Ai_Quoc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1919</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">danh hiệu được dùng ký đại diện cho Hội những người An Nam yêu nước (Association des Patriotes Annamites) trong bản Yêu sách của nhân dân An Nam (Revendications du peuple annamite) gửi tới Hội nghị Versailles, Pháp</suKien>
+</Ten>
+
+<Ten rdf:about="#Phec-di-nang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phéc-đi-năng</tenGoi>
+</Ten>
+
+<Ten rdf:about="#Albert_de_Pouvourville">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1920</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albert de Pouvourville</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Báo Điện Tín Thuộc Địa có truyền đơn trích đoạn từ nhiều tờ báo có liên quan tới vấn đề Đông Dương. Người đăng ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Nguyen_A.Q.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1921-1926</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn A.Q.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đăng bài báo có tựa “Hãy Yêu Mến Nước Pháp, Người Bảo Hộ Các Anh.” trên báo Người tụ do và dùng tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Culixe">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 18 tháng 3 năm 1922</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culixe</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc ký bút danh này trong một bài viết trên L’Humanité </suKien>
+</Ten>
+
+<Ten rdf:about="#N.A.Q">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">từ 1922-1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N.A.Q</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này trên báo Le Paria và L’Humanité</suKien>
+</Ten>
+
+<Ten rdf:about="#Ng.A.Q.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">từ 1922-1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ng.A.Q.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này trên báo Le Paria </suKien>
+</Ten>
+
+<Ten rdf:about="#Henri_Tran">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1922</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henri Tran</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tên ghi trong thẻ đảng viên Đảng Cộng Sản Pháp của Nguyễn Ái Quốc. Số thẻ: 13861.</suKien>
+</Ten>
+
+<Ten rdf:about="#N.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1923-1928</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc dùng bút danh này trên báo Le Paria</suKien>
+</Ten>
+
+<Ten rdf:about="#Chen_Vang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 16 tháng 6 năm 1923</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen Vang</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc được cơ quan đặc mệnh toàn quyền Cộng Hòa Xã Hội Chủ Nghiã Sô Viết Liên Bang tại Berlin cấp cho giấy đi đường số 1829. Trong giấy  Nguyễn Ái Quốc mang tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Nguyen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1923, 1924, 1928</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh trên báo Le Paria</suKien>
+</Ten>
+
+<Ten rdf:about="#Chu_Nguyen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1923</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chú Nguyễn</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tên ký trong thư gửi đến các bạn cùng hoạt động tại Pháp trước khi rời Paris đi Liên Xô</suKien>
+</Ten>
+
+<Ten rdf:about="#Lin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">từ 1923-1924 và 1934-1939</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lin</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tên này xuất hiện lần đầu tiên trong bức điện thư gửi Ban Phương Đông của Quốc Tế Cộng Sản và được dùng trong nhiều hoạt động sau đó</suKien>
+</Ten>
+
+<Ten rdf:about="#Ai_Quoc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1924</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ái Quốc</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tên ghi trong thẻ dự đại hội V Quốc Tế Cộng Sản</suKien>
+</Ten>
+
+<Ten rdf:about="#Un_Annamite">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1924</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un Annamite</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bút danh được ký dưới một bài viết trên báo Le Paria</suKien>
+</Ten>
+
+<Ten rdf:about="#Loo_Shing_Yan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 12 tháng 11 năm 1924</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loo Shing Yan</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc ký tên này trong bài "Thư Từ Trung Quốc, số 1" gửi tạp chí Rabotnhitxa</suKien>
+</Ten>
+
+<Ten rdf:about="#Ong_Lu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 12 tháng 11 năm 1924</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ông Lu</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc viết thư gửi cho một đồng chí trong Quốc Tế Cộng Sản báo tin ông Lu đã đến Quảng Châu, Trung Quốc. Cuối thư đề điạ chỉ liên lạc: Ông Lu, Hãng thông tấn Roxta, Quảng Châu, Trung Quốc</suKien>
+</Ten>
+
+<Ten rdf:about="#Ly_Thuy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1924</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lý Thụy</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc sử dụng bút danh này khi hoạt động tại Trung Quốc</suKien>
+</Ten>
+
+<Ten rdf:about="#Ly_An_Nam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1924 - 1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lý An Nam</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc hoạt động ở Quảng Châu với bí danh Lý Thụy, làm phiên dịch trong văn phòng của Đoàn cố vấn Xô Viết. Lý Thụy cũng có biệt danh này</suKien>
+</Ten>
+
+<Ten rdf:about="#Nilopxki_(N.A.Q.)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuối năm 1924</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nilopxki (N.A.Q.)</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc tới Quảng Châu, Trung Quốc, làm việc tại cơ quan của Borodin. Hiện sưu tầm được tất cả 6 lá thư Nguyễn Ái Quốc ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Vuong">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vương</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Là giảng viên huấn luyện chính trị tại Quảng Châu, Nguyễn Ái Quốc lấy tên là Vương. Vương cũng là bí danh để bắt liên lạc với Nguyễn Lương Bằng ở Trung Quốc</suKien>
+</Ten>
+
+<Ten rdf:about="#L.T.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1925, 1949, 1957, 1958, 1960</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L.T.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc ký tên này gửi thư cho ông H (Thượng Huyền). Sau ngày Nguyễn Ái Quốc còn viết khoảng 15 bài trên báo Nhân Dân với bút hiệu này</suKien>
+</Ten>
+
+<Ten rdf:about="#Howang_T.S.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 2 tháng 5 năm 1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Howang T.S.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc lấy bút hiệu này viết về đại hội công nhân và nông dân</suKien>
+</Ten>
+
+<Ten rdf:about="#Z.A.C.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z.A.C.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút hiệu này được đăng trên báo Thanh Niên</suKien>
+</Ten>
+
+<Ten rdf:about="#Ly_Mo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 14 tháng 7 năm 1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lý Mỗ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Báo Công Nhân Chi Lộ Đặc Hiệu, số 20, đã đưa tin một người Việt Nam gia nhập đội diễn thuyết và để giữ bí mật, Nguyễn Ái Quốc có tên là này</suKien>
+</Ten>
+
+<Ten rdf:about="#Truong_Nhuoc_Trung">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trương Nhược Trừng</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viết trên báo Thanh Niên với bút danh này</suKien>
+</Ten>
+
+<Ten rdf:about="#Vuong_Son_Nhi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1925</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vương Sơn Nhi</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viết trên báo Thanh Niên với bút danh này</suKien>
+</Ten>
+
+<Ten rdf:about="#Vuong_Dat_Nhan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 14 tháng 1 năm 1926</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vương Đạt Nhân</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với bút danh này, Nguyễn Ái Quốc được Đoàn Chủ Tịch Đại Hội đại biểu toàn quốc lần thứ 2 của Quốc Dân Đảng Trung Quốc mời đến dự và phát biểu ý kiến</suKien>
+</Ten>
+
+<Ten rdf:about="#Mong_Lien">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 4 tháng 4 năm 1926</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mộng Liên</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">được ký dưới bài viết “Mục Dành Cho Phụ Nữ” đăng trên báo Thanh Niên, số 40</suKien>
+</Ten>
+
+<Ten rdf:about="#X.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1926, 1927</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này dùng trong loạt bài viết nhan đề “Các Sự Biến Ở Trung Quốc”, đăng trên 7 số báo L’Annam</suKien>
+</Ten>
+
+<Ten rdf:about="#H.T.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1926</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H.T.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viết trên báo Thanh Niên với bút danh này</suKien>
+</Ten>
+
+<Ten rdf:about="#Tong_Thieu_To">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1926</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tống Thiệu Tổ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theo hồi ký của một số người hoạt động ở Quảng Châu, Trung Quốc, đây là bí danh của Nguyễn Ái Quốc khi ông ta hoạt động ở Quảng Châu, Trung Quốc</suKien>
+</Ten>
+
+<Ten rdf:about="#X.X.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 14 tháng 8 năm 1926</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X.X.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc ký bút danh này trên một bài đăng trong Inprekorr, số 91</suKien>
+</Ten>
+
+<Ten rdf:about="#Wang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1927</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bài viết dưới bút danh này được đăng trên Thư Tín Quốc Tế (Inprekorr)</suKien>
+</Ten>
+
+<Ten rdf:about="#N.K.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1927</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N.K.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bài viết dưới bút danh này được đăng trên Thư Tín Quốc Tế (Inprekorr)</suKien>
+</Ten>
+
+<Ten rdf:about="#N._Ai_Quoc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1927</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N. Ái Quốc</tenGoi>
+</Ten>
+
+<Ten rdf:about="#Liwang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 16 tháng 12 năm 1927</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liwang</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">từ Berlin Nguyễn Ái Quốc viết thư cho Đoàn Chủ Tịch Quốc Tế Nông Dân, đề nghị giúp đỡ tiền để về nước. Thư viết: "Trong 2 hoặc 3 tuần nữa tôi sẽ trở về đất nước tôi. Chuyến đi của tôi tốn chừng 500 dollars Mỹ. Vì tôi không có tiền nên tôi mong các đồng chí giúp tôi". Thư ký tên N. Ái Quốc. Trong thư, Nguyễn Ái Quốc đề nghị nếu có tiền xin gửi đến Uỷ Ban Trung Ương của Đảng Cộng Sản Đức, chuyển cho tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#M._Lai">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 16 tháng 12 năm 1927</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M. Lai</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trong thư gửi Đoàn Chủ Tịch Quốc Tế Nông Dân, Nguyễn Ái Quốc ghi địa chỉ trả lời thư: chez M. Eckshtein, 21, Halle Chactrasse, Berlin, với tên người nhận là tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#A.P.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1927</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A.P.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viết bài “Văn Minh Pháp ở Đông Dương” trên Inprekorr</suKien>
+</Ten>
+
+<Ten rdf:about="#N.A.K">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 3 tháng 2 năm 1928</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N.A.K</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trong thư gửi Quốc Tế Nông Dân</suKien>
+</Ten>
+
+<Ten rdf:about="#Nguyen_Lai">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1928</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Lai</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với thẻ nhập cảnh mang tên này, một Hoa kiều, Nguyễn Ái Quốc đặt chân tới đất Xiêm (Thái Lan)</suKien>
+</Ten>
+
+<Ten rdf:about="#Tho">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1928</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thọ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tại Thái Lan khi họp với người Việt cư ngụ tại Thái Lan, Nguyễn Ái Quốc tự giới thiệu là Thọ, biệt hiệu là</suKien>
+</Ten>
+
+<Ten rdf:about="#Nam_Son">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1928</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nam Sơn</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tại Thái Lan khi họp với người Việt cư ngụ tại Thái Lan, Nguyễn Ái Quốc tự giới thiệu là Thọ, đây là biệt hiệu</suKien>
+</Ten>
+
+<Ten rdf:about="#Thau_Chin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1928</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thầu Chín</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc tới Udon, Thái Lan, ông lấy tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Victor_Lebon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Victor Lebon</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">điạ chỉ Nguyễn Ái Quốc ghi để nhận thư của đại diện Đảng Cộng Sản Pháp tại Quốc Tế cộng Sản và các đồng chí trong Đảng Cộng Sản Liên Xô sử dụng tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Ong_Ly(Lee)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ông Lý(Lee)</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với tên gọi này và địa chỉ The HongKong Shiao Fih Pao, 53, Wyndham Str, HongKong, Nguyễn Ái Quốc đã gửi cho đại diện Đảng Cộng Sản Mỹ</suKien>
+</Ten>
+
+<Ten rdf:about="#Ng._Ai_Quoc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ng. Ái Quốc</tenGoi>
+</Ten>
+
+<Ten rdf:about="#L.M.Vang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L.M.Vang</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc gửi thư cho văn phòng đại diện Đảng Cộng Sản Đức ở Quốc Tế Cộng Sản đề nghị xin một giấy chứng nhận là phóng viên báo Thế Giới. Thư ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Tiet_Nguyet_Lam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiết Nguyệt Lâm</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trong thư Nguyễn Ái Quốc xin giấy chứng nhận là phóng viên báo Thế Giới, ông ghi địa chỉ để nhận là: Mr. Sit-yet-um, Wah-jon C, 136 wanchai R, HongKong</suKien>
+</Ten>
+
+<Ten rdf:about="#Paul">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc viết thư gửi đồng chí Sota, liên đoàn chống đế quốc tại Berlin, thông báo về việc Đảng Cộng Sản Việt Nam đã được thành lập. Thư ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#T.V._Wang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 2 tháng 3 năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T.V. Wang</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc viết thư gửi Ban Phương Đông, Quốc Tế Cộng Sản báo cáo về tình hình Mã Lai, Đông Dương và việc gửi 3 học sinh đi học. Trong thư có dùng tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Cong_Nhan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 31 tháng 8 năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Công Nhân</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này trong bài viết “Tranh Thủ Quần Chúng Như Thế Nào?” đăng trên báo Vô Sản, cơ quan ngôn luận của Đảng Cộng Sản Việt Nam, số 1</suKien>
+</Ten>
+
+<Ten rdf:about="#Victo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 29 tháng 9 năm 1930</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Victo</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bí danh này trong bức thư gửi Ban Chấp Hành Quốc Tế Cộng Sản báo cáo về cuộc đấu tranh từ ngày 11 đến 17 tháng 9 năm 1930 của nông dân các tỉnh Thanh Chương, Hưng Nguyên, Nghệ An….</suKien>
+</Ten>
+
+<Ten rdf:about="#V.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 19 tháng 2 năm 1931</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc viết bài “Nghệ Tỉnh Đỏ” với bí danh này</suKien>
+</Ten>
+
+<Ten rdf:about="#K.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 21 tháng 2 năm 1931</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc viết thư gửi Ban Phương Đông, ký tên này, trong thư báo tin Lý Tự Trọng bắn chết mật thám Legrant và đã bị bắt. Nguyển Ái Quốc đề nghị Ban Phương Đông liên lạc với Đảng Cộng Sản Pháp tổ chức biểu tình đòi thả Lý Tự Trọng.</suKien>
+</Ten>
+
+<Ten rdf:about="#Dong_Duong">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1931</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đông Dương</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút hiệu này được đăng trên bài viết “Kỷ Niệm Một Năm Khởi Nghĩa Yên Bái” đăng trên Tạp Chí Thư Tín Quốc Tế, số 12</suKien>
+</Ten>
+
+<Ten rdf:about="#Quac_E._Wen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1931</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quac E. Wen</tenGoi>
+</Ten>
+
+<Ten rdf:about="#K.V.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">từ 24 tháng 4 năm 1931</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K.V.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bí danh này được nhắc đến trong thư gửi Ban Chấp Hành Trung Ương Đảng Cộng Sản Đông Dương</suKien>
+</Ten>
+
+<Ten rdf:about="#Lao_Trinh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1931</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lão Trịnh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trong báo cáo của cơ quan an ninh Pháp về hoạt động của Nguyễn Ái Quốc, thời gian trước khi bị bắt ở Hongkong</suKien>
+</Ten>
+
+<Ten rdf:about="#Tong_Van_So">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1931</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tống Văn Sơ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">là tên ghi trong thẻ căn cước của Nguyễn Ái Quốc khi ông ta bị bắt ở số 186, phố Tam Lung, Hongkong</suKien>
+</Ten>
+
+<Ten rdf:about="#New_Man">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1933</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Man</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bí danh này được gửi cho luật sư Lôdơbi, người đã có công giúp Tống Văn Sơ ra khỏi nhà tù Anh ở Hongkong</suKien>
+</Ten>
+
+<Ten rdf:about="#Linov">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ năm 1934</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linov</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tại Viện Nghiên Cứu các vấn đề thuộc địa, năm học 1934-1935</suKien>
+</Ten>
+
+<Ten rdf:about="#Teng_Man_Huon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tháng 8 năm 1935</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teng Man Huon</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc tham dự đại hội lần thứ 7 Quốc Tế Cộng Sản. Trong bản kê khai để tham dự đại hội, ông có ghi: Họ, tên, bí danh trong đảng hiện nay là tên gọi này</suKien>
+</Ten>
+
+<Ten rdf:about="#Thieu_ta_Ho_Quang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cuối năm 1938</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiếu tá Hồ Quang</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhờ quan hệ Liên Xô và Trung Quốc nên Nguyễn Ái Quốc qua Trung Quốc dễ dàng. Tại Lan Châu thủ phủ tỉnh Cam Túc, Tây Bắc Trung Quốc, Nguyễn Ái Quốc mang phù hiệu Bát lộ quân, quân hàm thiếu tá và giấy tờ mang tên gọi này</suKien>
+</Ten>
+
+<Ten rdf:about="#P.C._Lin_(P.C._Line)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1938</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P.C. Lin (P.C. Line)</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ Trung Quốc Nguyễn Ái Quốc viết hằng chục bài gửi về nước đăng trên Notre Voix, ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#D.C.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 21-28 tháng 8 năm 1939</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D.C.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút hiệu này có bài viết trên báo Dân Chúng xuất bản tại Saigon. Báo đăng liên tiếp ba số 46, 47, 48</suKien>
+</Ten>
+
+<Ten rdf:about="#Lam_Tam_Xuyen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 20 tháng 4 năm 1939</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lâm Tam Xuyên</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ Quế Lâm, Trung Quốc, Nguyễn Ái Quốc viết thư gửi một đồng chí ở Ban Phương Đông Quốc Tế Cộng Sản. Cuối thư, sau dòng chữ bằng tiếng Pháp là chữ Hán viết tay có tên gọi này</suKien>
+</Ten>
+
+<Ten rdf:about="#Ong_Tran">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuối tháng 2 năm 1940</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ông Trần</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc với bí danh này đến hiệu dầu cù là Vĩnh An Đường ở Côn Minh, Vân Nam, Trung Quốc, bắt liên lạc với tổ chức cộng sản Việt Nam ở Vân Nam để từ đó tìm cách trở về nước</suKien>
+</Ten>
+
+<Ten rdf:about="#Binh_Son">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ 15 tháng 11 đến 18 tháng 12 năm 1940</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bình Sơn</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với bút hiệu này, Nguyễn Ái Quốc viết 12 bài đăng trên Cứu Vong Nhật Báo (Trung Quốc)</suKien>
+</Ten>
+
+<Ten rdf:about="#Cung_Sau_San">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 28 tháng 1 năm 1941</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cúng Sáu Sán</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Người dân tại Pác Bó gọi Nguyễn Ái Quốc bằng tên gọi này nghĩa là ông già ở rừng</suKien>
+</Ten>
+
+<Ten rdf:about="#Gia_Thu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1941</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Già Thu</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tại hang Pác Bó, cán bộ gọi Nguyễn Ái Quốc bằng tên gọi này</suKien>
+</Ten>
+
+<Ten rdf:about="#Kim_Oanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 1 tháng 9 năm 1941</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim Oanh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh của Nguyễn Ái Quốc ký dưới bài thơ “Phụ Nữ” đăng trên báo Việt Nam Độc Lập, số 104. Bài viết nêu những tấm gương anh hùng của phụ nữ Việt Nam từ Bà Trưng, Bà Triệu đến Nguyễn Thị Minh Khai. Kim Oanh kêu gọi chị em phụ nữ cần đòan kết lại để đấu tranh.</suKien>
+</Ten>
+
+<Ten rdf:about="#Be_Con">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 21 tháng 9 năm 1941</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bé Con</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này được ký dưới bài thơ “Trẻ Con” đăng trên Việt Nam Độc Lập, số 106</suKien>
+</Ten>
+
+<Ten rdf:about="#Ong_Cu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Các năm 1940-1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ông Cụ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cán bộ cộng sản đồng hành với Nguyễn Ái Quốc thường gọi Người bằng tên gọi này</suKien>
+</Ten>
+
+<Ten rdf:about="#Bac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tháng 5 năm 1941</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tên gọi này xuất hiện từ dịp họp hội nghị Trung Ương lần thứ 8, ở Pắc Bó, Hà Quảng, Cao Bằng</suKien>
+</Ten>
+
+<Ten rdf:about="#Thu_Son">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tháng 1 năm 1942</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thu Sơn</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với bí danh Thu Sơn này, Nguyễn Ái Quốc chuyển đến nhà Xích Thắng tức Dương Mạc Thạch tại châu Nguyên Bình, Cao Bằng trong một số ngày</suKien>
+</Ten>
+
+<Ten rdf:about="#Xung_Phong">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm1942</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xung Phong</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này Nguyễn Ái Quốc ký dưới hai bài thơ “Tặng Thống Chế Pê Tanh” và “Nhóm Lửa” đăng trên Việt Nam Độc Lập, số 131 và số 133</suKien>
+</Ten>
+
+<Ten rdf:about="#Ho_Chi_Minh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ 13 tháng 8 năm 1942 đến 2 tháng 9 năm 1969</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Ái Quốc quay lại Trung Quốc với danh nghĩa đại diện của cả Việt Minh và Hội quốc tế phản xâm lược Việt Nam (một hội đoàn được chính Bác tổ chức ra trước đó) để liên lạc với các lực lượng cách mạng của người Việt Nam và lực lượng Đồng minh. Tên gọi này đã lần đầu tiên đã được Bác chính thức sử dụng trong các giấy tờ cá nhân</suKien>
+</Ten>
+
+<Ten rdf:about="#Hy_Sinh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 21 tháng 8 năm 1942</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hy Sinh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với bút hiệu này, Hồ Chí Minh làm bài thơ “Chơi Giăng” đăng trên báo Việt Nam Độc Lập, số 134</suKien>
+</Ten>
+
+<Ten rdf:about="#Cu_Hoang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuối tháng 2 năm 1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cụ Hoàng</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh đi Côn Minh với ý định gặp các cơ quan của Mỹ để tranh thủ sự ủng hộ và giúp đỡ của đồng minh chống phát xít đối với nhóm của Hồ Chí Minh. Khi đến Bixichai, Hồ Chí Minh được giới thiệu với tên gọi này. Đây cũng là tên công khai của Hồ Chí Minh trên giấy tờ khi đi giao thiệp</suKien>
+</Ten>
+
+<Ten rdf:about="#C.M._Ho">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tháng 7 và 8 năm 1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C.M. Hồ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh ký tên này dưới thư gửi ông Fenn, ông Tam</suKien>
+</Ten>
+
+<Ten rdf:about="#Chien_Thang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiến Thắng</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này Hồ Chí Minh viết bài đăng trên báo Cứu Quốc</suKien>
+</Ten>
+
+<Ten rdf:about="#Ong_Ke">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiều cuối tháng 4 năm 1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ông Ké</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh trong bộ áo chàm người Nùng đến chiếc lán ở Pác Tẻng (chân núi Lam Sơn, Cao Bằng) của gia đình đồng chí Hoàng Đức Triều (An Định). Hồ Chí Minh được giới thiệu là đồng chí với tên gọi này</suKien>
+</Ten>
+
+<Ten rdf:about="#Ho_Chu_Tich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chủ Tịch</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tên này có sau khi tuyên bố có “Chính Phủ Việt Nam Dân Chủ Cộng Hoà”</suKien>
+</Ten>
+
+<Ten rdf:about="#Q.T.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1945-1946</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q.T.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với bút hiệu này, Hồ Chí Minh viết 10 bài đăng trên báo Cứu Quốc</suKien>
+</Ten>
+
+<Ten rdf:about="#Q.Th.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q.Th.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với bút hiệu này Hồ Chí Minh viết 14 bài đăng trên báo Cưú Quốc, bài đầu tiên với bút hiệu này là “Thế Giới với Việt Nam,” báo số 130</suKien>
+</Ten>
+
+<Ten rdf:about="#Lucius">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1945</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucius</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tên mật do tổ chức OSS đặt cho Hồ Chí Minh khi ông ta làm việc cho cơ quan tình báo OSS của Hoa Kỳ.</suKien>
+</Ten>
+
+<Ten rdf:about="#Bac_Ho">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ năm 1946</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhiều thư gửi cho các thanh thiếu niên, học sinh ký tên này. Tên gọi này cũng được quần chúng sử dụng rộng rãi, trong sách báo, học đường</suKien>
+</Ten>
+
+<Ten rdf:about="#H.C.M.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1946</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H.C.M.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">được ký dưới thư gửi cho đồng chí của Hồ Chí Minh là Morixo Tore, tổng bí thư Đảng Cộng Sản Pháp</suKien>
+</Ten>
+
+<Ten rdf:about="#D.H.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1946</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đ.H.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này được Hồ Chí Minh ký tên khi viết tập “Nhật Ký Hành Trình của Chủ Tịch Hồ Chí Minh Bốn Tháng Sang Pháp”</suKien>
+</Ten>
+
+<Ten rdf:about="#Xuan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ ngày 4 tháng 3 năm 1947 đến 18 tháng 3 năm 1947</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xuân</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trên đường di chuyển từ Hà Nội qua Sơn Tây, Phú Thọ, để trở lại chiến khu Việt Bắc trong những ngày đầu có chiến tranh với Pháp, Hồ Chí Minh đã nghỉ lại ở nhà ông Hoàng Văn Nguyên ở xóm Đồi, xã Cổ Tiết, huyện Tam Nông, tỉnh Phú Thọ. Thời gian ở đây, Hồ Chí Minh lấy bí danh là này trong các giấy tờ giao dịch</suKien>
+</Ten>
+
+<Ten rdf:about="#Mot_Nguoi_Viet_Nam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tháng 12 năm 1946</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Một Người Việt Nam</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đây là bút danh của Hồ Chí Minh ký dưới một bài viết “Hoa Việt Thân Thiện”</suKien>
+</Ten>
+
+<Ten rdf:about="#Tan_Sinh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1947-1948</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tân Sinh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này Hồ Chí Minh dùng trong một số tác phẩm như “Đời Sống Mới”, “Nêu Cao và Thực Hành Cần Kiệm Liêm Chính Tức Là Nhen Lửa Cho Đời Sống Mới,” “Việt Bắc Anh Dũng”</suKien>
+</Ten>
+
+<Ten rdf:about="#X.Y.Z.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ 1947-1950</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X.Y.Z.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này được dùng trong các sách “Sửa Đổi Lối Làm Việc”. Sách viết về “xây dựng Đảng” dựa theo cách chỉ dẫn của Lenin. Cũng với bút danh này, Hồ Chí Minh viết bài cho báo Sự Thật bài “Dân Vận”, số báo 120</suKien>
+</Ten>
+
+<Ten rdf:about="#Tran_Thang_Loi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tháng 1 năm 1949</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trần Thắng Lợi</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh dùng bút danh này viết bài “Đảng Ta” đăng trên tạp chí Sinh Hoạt Nội Bộ số 13</suKien>
+</Ten>
+
+<Ten rdf:about="#nan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1949-1958 và 1961</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">None</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh Trần Lực đã viết gần 70 bài báo và các tác phẩm ngắn như “Giấc Ngủ 10 Năm”, “Liên Xô Vĩ Đại”, “Đạo Đức Cách Mạng”…</suKien>
+</Ten>
+
+<Ten rdf:about="#Le_Nhan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 19 tháng 8 năm 1949</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lê Nhân</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Với bút hiệu này, Hồ Chí Minh viết bài “Thất Bại và Thành Công”, đăng trên báo Sự Thật. Bài viết này cho chương mục “Sửa Đổi Lối Làm Việc”.</suKien>
+</Ten>
+
+<Ten rdf:about="#T.T.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1949</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T.T.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này Hồ Chí Minh ký dưới bài viết “Hồ Chủ Tịch và Văn Nghệ"</suKien>
+</Ten>
+
+<Ten rdf:about="#T.L.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ 1950-1969</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T.L.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này, Hồ Chí Minh dùng trong gần 250 bài báo đăng trên Sự Thật, Nhân Dân</suKien>
+</Ten>
+
+<Ten rdf:about="#Chi_Minh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 9 tháng 11 năm 1950</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chí Minh</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Khi nghe tin người anh là Nguyễn Sinh Khiêm mất, Hồ Chí Minh viết một điện thư chia buồn dòng họ Nguyễn Sinh. Cuối điện thư, ký tên này</suKien>
+</Ten>
+
+<Ten rdf:about="#Hong_Lien">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 19 tháng 6 năm 1953</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồng Liên</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh dùng bút danh phụ nữ viết bài “Nhân Dịp Đại Hội Phụ Nữ Quốc Tế” đăng trên báo Cứu Quốc, số 2362</suKien>
+</Ten>
+
+<Ten rdf:about="#Nguyen_Thao_Luoc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 16 - 20 tháng 1 năm 1954</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Thao Lược</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đây là bút danh Hồ Chí Minh dùng viết bài “Đẩy Mạnh Phong Trào Du Kích”, đăng trên báo Nhân Dân, tác giả khẳng định “biết địch biết ta, trăm trận trăm thắng.”</suKien>
+</Ten>
+
+<Ten rdf:about="#Tan_Trao">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 25 - 27 tháng 8 năm 1954</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tân Trào</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này được Hồ Chí Minh ký dưới bài “Giải Phóng Đài Loan”, đăng trên báo Nhân Dân, số 218</suKien>
+</Ten>
+
+<Ten rdf:about="#Nguyen_Tam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 tháng 5 năm 1957</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyễn Tâm</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này được dùng trong bài “Quyển Nhật Ký Trong Ngục của Bác.” Bài này Hồ Chí Minh viết nhân dịp sinh nhật của mình</suKien>
+</Ten>
+
+<Ten rdf:about="#Chien_Sy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Từ 1958-1968</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiến Sỹ</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh dùng bút hiệu này viết hơn 80 bài báo đăng trên Nhân Dân và Quân Đội Nhân Dân. Đa số các bài viết lên án Mỹ và các bài viết ca ngợi như bài “Thanh Niên Anh Hùng Lý Tự Trọng.”</suKien>
+</Ten>
+
+<Ten rdf:about="#Thu_Giang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 12 tháng 4 năm 1959</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thu Giang</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh ký bút danh này trong bài “Bác Đến Thăm Côn Minh” trên báo Nhân Dân</suKien>
+</Ten>
+
+<Ten rdf:about="#Tuyet_Lan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1960</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuyết Lan</tenGoi>
+</Ten>
+
+<Ten rdf:about="#Luat_su_Th._Lam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 5 tháng 8 năm 1961</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luật sư Th. Lam</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này Hồ Chí Minh viết bài “Kính Hỏi Uỷ Ban Quốc Tế Giám Sát và Kiểm Sát” đăng trên báo Nhân Dân, liên quan về hiệp định Geneve</suKien>
+</Ten>
+
+<Ten rdf:about="#Ng._Van_Trung">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tháng 6 năm 1963</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ng. Văn Trung</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh dùng bút danh này viết bài “Phải Chăng Rồng Lấy Nước”</suKien>
+</Ten>
+
+<Ten rdf:about="#Dan_Viet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 22 tháng 1 năm 1964</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dân Việt</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh lấy bút hiệu này viết bài “Thư Ngỏ Gửi Ngài Ngoại Trưởng Anh Cát Lợi” đăng trên báo Nhân Dân</suKien>
+</Ten>
+
+<Ten rdf:about="#Dinh_Van_Hao">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 2 tháng 5 năm 1964</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đinh Văn Hảo</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này Hồ Chí Minh viết thư gửi “chủ bút báo Tân Việt Hoa”</suKien>
+</Ten>
+
+<Ten rdf:about="#Noi_That">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1966</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nói Thật</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh dùng bút danh này viết 4 bài báo đăng trong báo Nhân Dân</suKien>
+</Ten>
+
+<Ten rdf:about="#Chien_Dau">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1967</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiến Đấu</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trong thời gian Hồ Chí Minh chữa bệnh tại Trung Cộng, ông viết 2 bài báo với bút danh này. Một bài có tựa “Lại Thêm Một Thắng Lợi To Lớn của Trung Quốc Anh Em”, đăng trên Nhân Dân, số 4823</suKien>
+</Ten>
+
+<Ten rdf:about="#B.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 10 tháng 3 năm 1968</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B.</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh gửi thư cho Lê Duẩn, ký tên này. Nội dung thư liên hệ về việc Hồ Chí Minh đi thăm miền Nam. Trong những năm 60, bí danh này cũng được dùng để gửi thư các đồng chí trong bộ chính trị</suKien>
+</Ten>
+
+<Ten rdf:about="#Viet_Hong">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 5 tháng 5 năm 1968</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Việt Hồng</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh ký bút danh này trong bài viết “Vừa Đi Đường Vừa Kể Chuyện Về Các Mác” đăng trên Nhân Dân, số 5137</suKien>
+</Ten>
+
+<Ten rdf:about="#Dinh_Nhat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tháng 5 năm 1964</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đinh Nhất</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh đi Côn Minh dùng bí danh này. Hồ Chí Minh gửi thư Chu Ân Lai và Đặng Dĩnh Siêu, cũng dùng bí danh này</suKien>
+</Ten>
+
+<CongViec rdf:about="#Thay_giao">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1910</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thầy giáo</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trường Dục Thanh, Phan Thiết</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Phu_bep">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 3/6/1911</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phụ bếp</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tàu Amiral Latouche Tréville</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Lam_vuon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1912</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Làm vườn</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint–Adresse, ngoại ô của Havre</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#thuy_thu,_boi_tren_tau_bien_di_vong_quanh_chau_Phi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1912</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thủy thủ, bồi trên tàu biển đi vòng quanh châu Phi</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tàu của hãng Chargeurs Réunis</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Boi_ban">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">từ 1912-1913</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bồi bàn</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nước Mỹ</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Tho_dot_lo,_cao_tuyet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1913</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thợ đốt lò, cào tuyết</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nước Anh</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Lam_phu_bep">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cuối năm 1913</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Làm phụ bếp</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">khách sạn Drayton Court, đại lộ Drayton, khu West Ealing, Tây London</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Tho_lam_banh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cuối năm 1913</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thợ làm bánh</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">khách sạn Carlton, London</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Tho_anh,_ve_chao_den,_ve_do_co_my_nghe_Trung_Hoa,_ban_ruou_rum_dong_thoi_lam_bao,_la_tuyen_tuyen_vien_cach_mang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1917-1923</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thợ ảnh, vẽ chao đèn, vẽ đồ cổ mỹ nghệ Trung Hoa, bán rượu rum đồng thời làm báo, là tuyên tuyền viên cách mạng</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#phien_dich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1924-1927</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phiên dịch</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phái bộ cố vấn Borodin, bên cạnh Chính phủ Tôn Dật Tiên, Quảng Châu, Trung Quốc</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#phong_vien,_lam_bao">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1924-1927</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phóng viên, làm báo</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">báo Canton Gazette - báo bằng chữ Anh của Trung ương Quốc dân đảng, Quảng Châu, Trung Quốc</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#ban_thuoc_la,_ban_bao">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1924-1927</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bán thuốc lá, bán báo</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quảng Châu, Trung Quốc</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#thay_giao_lop_huan_luyen_chinh_tri">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1924-1927</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thầy giáo lớp huấn luyện chính trị</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quảng Châu, Trung Quốc</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Lam_vuon,_chom_ca,_boc_thuoc,_di_buon,_di_tu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">năm 1928-1929</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Làm vườn, chơm cá, bốc thuốc, đi buôn, đi tu</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thái Lan</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Bien_tap_to_Sinh_hoat_tieu_bao_cua_noi_bo_co_quan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1938</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biên tập tờ Sinh hoạt tiểu báo của nội bộ cơ quan</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phòng Cứu vong thuộc Văn phòng Bát lộ quân ở Quế Lâm Trung Quốc</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#thay_giao">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đầu năm 1941</thoiGian>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thầy giáo</tenCongViec>
+  <noiLamViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lớp huấn luyện do Người tổ chức ở làng Nậm Quang, Tĩnh Tây, Quảng Tây, Trung Quốc</noiLamViec>
+</CongViec>
+
+<CongViec rdf:about="#Nha_cach_mang_chuyen_nghiep">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenCongViec rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà cách mạng chuyên nghiệp</tenCongViec>
+</CongViec>
+
+<TheLoaiVanHoc rdf:about="#LIT1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TheLoaiVanHoc>
+
+<TheLoaiVanHoc rdf:about="#LIT2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TheLoaiVanHoc>
+
+<TheLoaiVanHoc rdf:about="#LIT3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TheLoaiVanHoc>
+
+<TheLoaiVanHoc rdf:about="#LIT4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TheLoaiVanHoc>
+
+<TacPhamCuaBac rdf:about="#BAN_YEU_SACH_CUA_NHAN_DAN_AN_NAM">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 18/06/1919</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BẢN YÊU SÁCH CỦA NHÂN DÂN AN NAM</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Revendications du peuple annamite</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hội nghị Hòa bình Versailles.</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Pari_">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31-5-1922</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pari </tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">báo Nhân đạo (L’Humanité)</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Loi_than_van_cua_ba_Trung_Trac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 24/6/1922</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời than vãn của bà Trưng Trắc</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Les lamentations de Trung Trac</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">báo Nhân đạo (L’Humanité)</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Nhung_con_nguoi_biet_mui_hun_khoi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-7-1922</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Những con người biết mùi hun khói</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Enfumé</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">báo Nhân đạo (L’Humanité)</noiPhatHanh>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Con_rong_tre_(kich)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1922</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Con rồng tre (kịch)</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Vi_hanh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 19-2-1923</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vi hành</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">báo Nhân đạo (L’Humanité)</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Ban_an_che_do_thuc_dan_Phap">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1925</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bản án chế độ thực dân Pháp</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Procès de la colonisation française</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Báo Imprékor của Quốc tế Cộng sản</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Con_Rua">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tháng 2 và 3-1925</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Con Rùa</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Báo Người cùng khổ (Le Paria)</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Nhung_tro_lo_hay_la_Varen_va_Phan_Boi_Chau">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tháng 9 và 10 - 1925</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Những trò lố hay là Varen và Phan Bội Châu</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Pháp</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Báo Người cùng khổ</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pháp</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Duong_Kach_menh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1927</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đường Kách mệnh</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dường Kách mệnh</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quảng Châu, Trung Quốc</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trung Quốc</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Cuong_linh_chinh_tri">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1930</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cương lĩnh chính trị</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Pac_Po_hung_vi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 08/02/1941</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pắc Pó hùng vĩ</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Tuc_canh_Pac_Po">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1941</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tức cảnh Pắc Pó</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Lich_su_nuoc_ta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1942</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lịch sử nước ta</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Nhat_ky_trong_tu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1942</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhật ký trong tù</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngục trung nhật ký</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chữ Hán</ngonNgu>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trung Quốc</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Len_nui">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1942</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lên núi</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thướng sơn</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chữ Hán</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Moi_ra_tu_tap_leo_nui">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1943</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mới ra tù tập leo núi</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tân xuất ngục học đăng sơn</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chữ Hán</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Tuyen_ngon_doc_lap">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 02/09/1945</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuyên ngôn độc lập</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+  <noiPhatHanh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quảng trường Ba Đình, Hà Nội</noiPhatHanh>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Việt Nam</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Loi_keu_goi_toan_quoc_khang_chien">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 19/12/1946</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời kêu gọi toàn quốc kháng chiến</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+  <noiSangTac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hà Nội</noiSangTac>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Sua_doi_loi_lam_viec">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1947</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sửa đổi lối làm việc</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Canh_rung_Viet_Bac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1947</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cảnh rừng Việt Bắc</tenTacPham>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Canh_khuya">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1947</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cảnh khuya</tenTacPham>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Nguyen_tieu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1948</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyên tiêu</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chữ Hán</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Tin_thang_tran">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1948</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tin thắng trận</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Báo tiệp</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chữ Hán</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Giac_ngu_muoi_nam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1949</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giấc ngủ mười năm</tenTacPham>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Doi_trang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <theLoai rdf:resource="#LIT3"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1950</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đối trăng</tenTacPham>
+  <tenKhac rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đối nguyệt</tenKhac>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chữ Hán</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Con_duong_dan_toi_toi_chu_nghia_Lenin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1960</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Con đường dẫn tôi tới chủ nghĩa Lênin</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Vua_di_duong_vua_ke_chuyen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT2"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1963</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vừa đi đường vừa kể chuyện</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Khong_co_gi_quy_hon_doc_lap_tu_do">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 17/7/1966</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Không có gì quý hơn độc lập tự do</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<TacPhamCuaBac rdf:about="#Di_chuc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <theLoai rdf:resource="#LIT1"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1969</thoiGian>
+  <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Di chúc</tenTacPham>
+  <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
+</TacPhamCuaBac>
+
+<Ten rdf:about="#Tran_Luc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1949-1958 và 1961</thoiGian>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trần Lực</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh  này đã viết gần 70 bài báo và các tác phẩm ngắn như “Giấc Ngủ 10 Năm”, “Liên Xô Vĩ Đại”, “Đạo Đức Cách Mạng”…</suKien>
+</Ten>
+
+
+</rdf:RDF>
