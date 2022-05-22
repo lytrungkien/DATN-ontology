@@ -637,8 +637,6 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <chucVu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ủy viên Bộ Chính trị khóa 2 và 3</chucVu>
   <nhiemKy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31 tháng 3 năm 1935 – 2 tháng 9 năm 1969</nhiemKy>
-  <tienNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">None</tienNhiem>
-  <keNhiem rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">None</keNhiem>
 </ChucVuTrongDang>
 
 <Ten rdf:about="#Nguyen_Tat_Thanh">
@@ -1351,8 +1349,8 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 <Ten rdf:about="#nan">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">các năm 1949-1958 và 1961</thoiGian>
-  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">None</tenGoi>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh Trần Lực đã viết gần 70 bài báo và các tác phẩm ngắn như “Giấc Ngủ 10 Năm”, “Liên Xô Vĩ Đại”, “Đạo Đức Cách Mạng”…</suKien>
+  <tenGoi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">Trần Lực</tenGoi>
+  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bút danh này đã viết gần 70 bài báo và các tác phẩm ngắn như “Giấc Ngủ 10 Năm”, “Liên Xô Vĩ Đại”, “Đạo Đức Cách Mạng”…</suKien>
 </Ten>
 
 <Ten rdf:about="#Le_Nhan">
