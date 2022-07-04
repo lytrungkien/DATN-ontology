@@ -517,6 +517,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#thumbnail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#thumbnail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#PhimTaiLieu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tienNhiem -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/ho-chi-minh#tienNhiem">
