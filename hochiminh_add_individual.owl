@@ -286,6 +286,11 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </owl:DatatypeProperty>
 
+<owl:DatatypeProperty rdf:about="#thumbnail">
+  <rdfs:domain rdf:resource="#PhimTaiLieu"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
 <owl:DatatypeProperty rdf:about="#tienNhiem">
   <rdfs:domain rdf:resource="#ChucVuTrongDang"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -471,6 +476,7 @@ Chúng tôi tin rằng các nước Đồng minh đã công nhận những nguy�
 Một dân tộc đã gan góc chống ách nô lệ của Pháp hơn tám mươi năm nay, một dân tộc đã gan góc đứng về phe Đồng minh chống phát-xít mấy năm nay, dân tộc đó phải được tự do ! Dân tộc đó phải được độc lập !
 Vì những lẽ trên, chúng tôi, Chính phủ Lâm thời của nước Việt Nam Dân chủ Cộng hòa, trịnh trọng tuyên bố với thế giới rằng:
 Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do, độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy.</noiDungVanBan>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/9/2/19/Bac-Ho-doc-tuyen-ngon.gif</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu2">
@@ -480,6 +486,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/02_HCM_DocLoiKeuGoiToanQuocKhangChien_.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</thoiLuong>
   <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào toàn quốc! Chúng ta muốn hoà bình, chúng ta đã nhân nhượng. Nhưng chúng ta càng nhân nhượng, thực dân Pháp càng lấn tới, vì chúng quyết tâm cướp nước ta một lần nữa! Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ. Hỡi đồng bào! Chúng ta phải đứng lên! Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp, cứu Tổ quốc. Ai có súng dùng súng. Ai có gươm dùng gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc. Ai cũng phải ra sức chống thực dân Pháp cứu nước. Hỡi anh em binh sĩ, tự vệ, dân quân! Giờ cứu quốc đã đến. Ta phải hy sinh đến giọt máu cuối cùng, để giữ gìn đất nước. Dù phải gian khổ kháng chiến, nhưng với một lòng kiên quyết hy sinh, thắng lợi nhất định về dân tộc ta! Việt Nam độc lập và thống nhất muôn năm Kháng chiến thắng lợi muôn năm</noiDungVanBan>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/19/Toanquockhangchien.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu3">
@@ -488,6 +495,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại cuộc mít tinh của nhân dân thủ đô Hà Nội sau khi kỳ họp Quốc hội khóa I thông qua bản Hiến pháp mới</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/03_HCM_NoiChuyenTaiCuocMitTinhCuaNhanDanThuDo.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/19/thumb_660_3-QuochoiVN-3801.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu4">
@@ -496,6 +504,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh phát biểu tại Lễ kỷ niệm 30 năm thành lập Đảng Cộng sản Việt Nam (3/2/1930 - 3/2/1960) tại thủ đô Hà Nội</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/04_HCM_PhatBieuTaiLeKyNiemLanThu30NamNgayTLDLDVN.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">691</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/19/bac-ho-2018-01-31-15-50.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu5">
@@ -504,6 +513,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại Đại hội Phụ nữ toàn quốc lần thứ III</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/05_HCM_NoiChuyenTaiDaiHoiPhuNuToanQuocLanThu3.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">592</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/19/images515353_4a.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu6">
@@ -513,6 +523,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/08_HCM_DocLoiKeuGoiChongMyCuuNuoc.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243</thoiLuong>
   <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào và chiến sĩ cả nước! Đế quốc Mỹ dã man, gây ra chiến tranh xâm lược hòng ǎn cướp nước ta, nhưng chúng đang thua to. Chúng ồ ạt mang gần 30 vạn quân viễn chinh vào miền Nam nước ta. Chúng nuôi dưỡng nguỵ quyền nguỵ quân làm công cụ hại dân phản nước. Chúng dùng những phương tiện chiến tranh cực kỳ man rợ, như chất độc hoá học, bom napan, v.v.. Chúng dùng chính sách đốt sạch, giết sạch, phá sạch. Bằng những tội ác ấy, chúng hòng khuất phục đồng bào miền Nam ta. Nhưng dưới sự lãnh đạo kiên quyết và khôn khéo của Mặt trận dân tộc giải phóng, quân và dân miền Nam ta đoàn kết chặt chẽ, chiến đấu anh dũng, đã thắng lợi vẻ vang và quyết tâm chiến đấu đến thắng lợi hoàn toàn, để giải phóng miền Nam, bảo vệ miền Bắc, tiến tới thống nhất nước nhà. ........... Chiến tranh có thể kéo dài 5 năm, 10 năm, 20 năm hoặc lâu hơn nữa, Hà Nội, Hải Phòng và một số thành phố, xí nghiệp có thể bị tàn phá, song nhân dân Việt Nam quyết không sợ, không có gì quý hơn độc lập tự do! ....... Đồng bào và chiến sĩ yêu quý! Chúng ta có chính nghĩa, có sức mạnh đoàn kết của toàn dân từ Bắc đến Nam, có truyền thống đấu tranh bất khuất, lại có sự đồng tình ủng hộ rộng lớn của các nước xã hội chủ nghĩa anh em và nhân dân tiến bộ cả thế giới, chúng ta nhất định thắng! Trước tình hình mới, chúng ta quyết đồng tâm nhất trí, vượt mọi gian khổ hy sinh, kiên quyết hoàn thành nhiệm vụ lịch sử vẻ vang của dân tộc ta là đánh thắng giặc Mỹ xâm lược! ... Nhân dân Việt Nam nhất định thắng! Giặc Mỹ xâm lược nhất định thua! Việt Nam hoà bình, thống nhất, độc lập, dân chủ và giàu mạnh muôn nǎm! Đồng bào và chiến sĩ cả nước, anh dũng tiến lên!</noiDungVanBan>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/19/Tintuc_cgs_vn_201671420h50m34s.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu7">
@@ -521,6 +532,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới Mậu Thân</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/09_HCM_ChucMungNamMoiMauThan1968.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20doc%20tho%20chuc%20tet%20mau%20than%201968.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu8">
@@ -529,6 +541,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới Kỷ Dậu</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/10_HCM_DocThuChucMungNamMoi1969.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20va%20tet%20ky%20dau%201969.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu9">
@@ -537,6 +550,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chủ tịch chúc mừng năm mới</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/04%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201955.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20nam%201955.png</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu10">
@@ -545,6 +559,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/06%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%20%20xuan%20Dinh%20Dau%201957.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20chuc%20mung%20nam%20moi.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu11">
@@ -553,6 +568,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/07%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201958.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20voi%20mua%20xuan.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu12">
@@ -561,6 +577,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới xuân Nhâm Dần</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/09%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Nham%20Dan%201962.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20chuc%20tet.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu13">
@@ -569,6 +586,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời chúc tết đồng bào nhân dịp đầu xuân Quý Mão</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/10%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Quy%20Mao%201963.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20chuc%20tet%201963.png</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu14">
@@ -577,6 +595,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời chúc tết đồng bào nhân dịp đầu xuân Giáp Thìn</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/11%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Giap%20Thin%201964.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac-chuc-mung-nam-moi-1967-430x260.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu15">
@@ -585,6 +604,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/12%20-%20Ho%20Chu%20Tich%20chuc%20%20mung%20nam%20moi%201967.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20chuc%20mung%20nam%20moi%201967.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu16">
@@ -593,6 +613,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ chủ tịch chúc mừng năm mới</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/05%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201956.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20voi%20mua%20xuan%20pac%20po.JPG</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu17">
@@ -601,6 +622,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc Tết đồng bào nhân dịp đầu xuân Tân Sửu</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/08%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Tan%20Suu%201961.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/bac%20ho%20chuc%20tet.jpg</thumbnail>
 </BaiPhatBieu>
 
 <BaiPhatBieu rdf:about="#baiphatbieu18">
@@ -609,6 +631,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại Đại hội đại biểu Phụ nữ toàn quốc lần thứ III</suKien>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/18%20-%20Bai%20noi%20chuyen%20tai%20dai%20hoi%20Phu%20nu%20toan%20quoc%20lan%20III.mp3</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/3/9/loi%20noi%20chuyen%20voi%20dai%20hoi%20phu%20nu.jpg</thumbnail>
 </BaiPhatBieu>
 
 <ChucVuTrongDang rdf:about="#Chu_tich_Dang_Lao_dong_Viet_Nam">
@@ -1634,23 +1657,27 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TheLoaiVanHoc rdf:about="#LIT1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenTheLoaiVanHoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tác phẩm chính luận</tenTheLoaiVanHoc>
 </TheLoaiVanHoc>
 
 <TheLoaiVanHoc rdf:about="#LIT2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenTheLoaiVanHoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Truyện và ký</tenTheLoaiVanHoc>
 </TheLoaiVanHoc>
 
 <TheLoaiVanHoc rdf:about="#LIT3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenTheLoaiVanHoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thơ</tenTheLoaiVanHoc>
 </TheLoaiVanHoc>
 
 <TheLoaiVanHoc rdf:about="#LIT4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <tenTheLoaiVanHoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiểu thuyết</tenTheLoaiVanHoc>
 </TheLoaiVanHoc>
 
 <TacPhamCuaBac rdf:about="#BAN_YEU_SACH_CUA_NHAN_DAN_AN_NAM">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT1"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 18/06/1919</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BẢN YÊU SÁCH CỦA NHÂN DÂN AN NAM</tenTacPham>
@@ -1662,7 +1689,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Pari_">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31-5-1922</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pari </tenTacPham>
@@ -1673,7 +1700,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Loi_than_van_cua_ba_Trung_Trac">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 24/6/1922</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời than vãn của bà Trưng Trắc</tenTacPham>
@@ -1685,7 +1712,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Nhung_con_nguoi_biet_mui_hun_khoi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-7-1922</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Những con người biết mùi hun khói</tenTacPham>
@@ -1696,7 +1723,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Con_rong_tre_(kich)">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1922</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Con rồng tre (kịch)</tenTacPham>
@@ -1707,7 +1734,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Vi_hanh">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 19-2-1923</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vi hành</tenTacPham>
@@ -1718,7 +1745,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Ban_an_che_do_thuc_dan_Phap">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT1"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1925</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bản án chế độ thực dân Pháp</tenTacPham>
@@ -1730,7 +1757,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Con_Rua">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tháng 2 và 3-1925</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Con Rùa</tenTacPham>
@@ -1741,7 +1768,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Nhung_tro_lo_hay_la_Varen_va_Phan_Boi_Chau">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Nguyen_Ai_Quoc"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tháng 9 và 10 - 1925</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Những trò lố hay là Varen và Phan Bội Châu</tenTacPham>
@@ -1795,7 +1822,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Nhat_ky_trong_tu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Ho_Chi_Minh"/>
   <theLoai rdf:resource="#LIT3"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1942</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhật ký trong tù</tenTacPham>
@@ -1824,7 +1851,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Tuyen_ngon_doc_lap">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Ho_Chi_Minh"/>
   <theLoai rdf:resource="#LIT1"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 02/09/1945</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuyên ngôn độc lập</tenTacPham>
@@ -1835,7 +1862,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Loi_keu_goi_toan_quoc_khang_chien">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Ho_Chi_Minh"/>
   <theLoai rdf:resource="#LIT1"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 19/12/1946</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời kêu gọi toàn quốc kháng chiến</tenTacPham>
@@ -1900,7 +1927,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Con_duong_dan_toi_toi_chu_nghia_Lenin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Ho_Chi_Minh"/>
   <theLoai rdf:resource="#LIT1"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1960</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Con đường dẫn tôi tới chủ nghĩa Lênin</tenTacPham>
@@ -1909,16 +1936,20 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Vua_di_duong_vua_ke_chuyen">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#T.Lan"/>
   <theLoai rdf:resource="#LIT2"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1963</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vừa đi đường vừa kể chuyện</tenTacPham>
   <ngonNgu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiếng Việt</ngonNgu>
 </TacPhamCuaBac>
 
+<Ten rdf:about="#T.Lan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Ten>
+
 <TacPhamCuaBac rdf:about="#Khong_co_gi_quy_hon_doc_lap_tu_do">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Ho_Chi_Minh"/>
   <theLoai rdf:resource="#LIT1"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 17/7/1966</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Không có gì quý hơn độc lập tự do</tenTacPham>
@@ -1927,7 +1958,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
 
 <TacPhamCuaBac rdf:about="#Di_chuc">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <kyTen rdf:resource="#Thieu_ta_Ho_Quang"/>
+  <kyTen rdf:resource="#Ho_Chi_Minh"/>
   <theLoai rdf:resource="#LIT1"/>
   <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1969</thoiGian>
   <tenTacPham rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Di chúc</tenTacPham>
@@ -2198,6 +2229,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/Tuyen%20Quang%20mua%20thu%20ay.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1306</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/HCM-Tuyen-Quang-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Ben_song_Pho_Day">
@@ -2206,6 +2238,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/BenSongPhoday.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1398</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/Ben-song-Pho-Day-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Thau_Chin_o_Xiem">
@@ -2214,6 +2247,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/PHIMTHAUCHINOXIEMvs1.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5506</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/Thau-Chin-o-Xiem-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Nguyen_Ai_Quoc_-_Ho_Chi_Minh">
@@ -2222,6 +2256,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viện phim Quốc gia</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/DB%2000154%20NAQ%20-%20HCM.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3584</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/Nguyen-Ai-Quoc-HCM-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Bac_Ho_song_mai">
@@ -2230,6 +2265,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/DB%2000248%20Bac%20Ho%20song%20mai.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4518</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/HCM-116-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Bac_Ho_voi_Quang_Ninh">
@@ -2238,6 +2274,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viện phim Quốc gia</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/DB%2000243%20Bac%20Ho%20voi%20Quang%20Ninh.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1546</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/HCM-118-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Bac_Ho_song_mai_voi_nhan_dan_Hai_Phong">
@@ -2246,6 +2283,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viện phim Quốc gia</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/DB%2000057BacHovoihandanHaihong.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/Bac-Ho-Hai_Phong-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Ho_Chi_Minh_-_Chan_dung_mot_con_nguoi">
@@ -2254,6 +2292,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viện phim Quốc gia</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/HCM%20-%20chan%20dung%20mot%20con%20nguoi%20111VFI.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3581</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/BH.70_resize-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Nhung_chang_duong_lich_su">
@@ -2262,6 +2301,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viện phim Quốc gia</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/Nhung%20chang%20duong%20lich%20su%20VFI.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3582</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/Nhung-chang-duong-lich-su-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Nguyen_Ai_Quoc_den_voi_Lenin">
@@ -2270,6 +2310,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/NAQ%20den%20voi%20Lenin%20VFI.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3626</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/Nguyen-Ai-Quoc-Lennin-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Nhung_gio_phut_cuoi_doi_Bac">
@@ -2278,6 +2319,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viện phim Quốc gia</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/14/BH.140_resize-430x260.jpg</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2225</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/14/BH.140_resize-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#79_mua_xuan">
@@ -2286,6 +2328,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/79%20mua%20xuan%20a%20a%20VFI(1).mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1402</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/14/79-mua-xuan-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Duong_ve_to_quoc">
@@ -2294,6 +2337,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/Duong%20ve%20To%20quoc%20VFI%20(12).mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3929</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/HCM-Tuyen-Quang-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Ho_Chi_Minh_trong_trai_tim_ban_be_quoc_te">
@@ -2302,6 +2346,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hochiminh.vn</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/26312_Ho%20Chi%20Minh%20trong%20trai%20tim%20ban%20be%20t1.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1601</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/10/2/14/HCM-Tap1-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Suc_lan_toa_cua_mot_nhan_cach">
@@ -2310,6 +2355,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trung tâm tư liệu Đài truyền hình Việt Nam</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/10738_suc%20lan%20toa%20cua%20mot%20nhan%20cach.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3856</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/9/2/19/Bac-Ho-sen-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Suc_song_cua_mot_ban_tuyen_ngon">
@@ -2318,6 +2364,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trung tâm tư liệu Đài truyền hình Việt Nam</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/10498_suc%20song%20mot%20ban%20tuyen%20ngon.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1463</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/9/2/19/Bac-Ho-doc-tuyen-ngon-gif-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Ten_nguoi_dep_mai">
@@ -2326,6 +2373,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trung tâm tư liệu Đài truyền hình Việt Nam</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/5972_ten%20nguoi%20dep%20mai.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2895</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/9/2/19/Bac-Ho-doc-tuyen-ngon-gif-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Noi_o_cua_Bac_Ho_-_mot_di_san_vo_gia">
@@ -2334,6 +2382,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trung tâm tư liệu Đài truyền hình Việt Nam</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/Noi_o_cua_Bac_Ho_mot_di_san_vo_gia.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1255</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2018/9/2/19/Nhung-mai-nha-don-so-cua-bac-mytour-19-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <PhimTaiLieu rdf:about="#Hinh_anh_ve_cuoc_doi_hoat_dong_cua_Chu_tich_Ho_Chi_Minh">
@@ -2342,6 +2391,7 @@ Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thậ
   <nguon rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viện phim Quốc gia</nguon>
   <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/Video/DB%2000177%20Hinh%20anh%20ve%20doi%20HD%20HCM.mp4</lienKet>
   <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2874</thoiLuong>
+  <thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/2019/1/2/9/Nguyen-Ai-Quoc-Lennin-430x260.jpg</thumbnail>
 </PhimTaiLieu>
 
 <ThoVanTuyenTap rdf:about="#Nguoi_di_tim_hinh_cua_nuoc">
@@ -46344,183 +46394,6 @@ Lê Liêm, giữ chức Phó Chủ nhiệm Tổng cục Chính trị Bộ Tổng
   <nguonTrichDan rdf:resource="#Ho_Chi_Minh_-_Bien_nien_tieu_su_-_Tap_4_(12/1946_-_12/1950)"/>
   <giaiDoan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tháng 12/1946 - 12/1950</giaiDoan>
 </TieuSu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu19">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 2/9/1945</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chí Minh, Chủ tịch lâm thời nước Việt Nam dân chủ cộng hòa đọc bản “Tuyên ngôn độc lập” tại Quảng trường Ba Đình, Hà Nội</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/01%20-%20Tuyen%20ngon%20doc%20lap_103854.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">442</thoiLuong>
-  <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào cả nước,
-"Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền  ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc".
-Lời bất hủ ấy ở trong bản Tuyên ngôn độc lập năm 1776 của nước Mỹ. Suy rộng ra, câu ấy có ý nghĩa là: tất cả các dân tộc trên thế giới đều sinh ra bình đẳng; dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do.
-Bản Tuyên ngôn nhân quyền và dân quyền của Cách mạng Pháp năm 1791 cũng nói:
-"Người ta sinh ra tự do và bình đẳng về quyền lợi, và phải luôn luôn được tự do và bình đẳng về quyền lợi".
-Đó là những lẽ phải không ai chối cãi được.
-Thế mà hơn tám mươi năm nay, bọn thực dân Pháp lợi dụng lá cờ tự do, bình đẳng, bác ái, đến cướp đất nước ta, áp bức đồng bào ta. Hành động của chúng trái hẳn với nhân đạo và chính nghĩa.
-Về chính trị, chúng tuyệt đối không cho nhân dân ta một chút tự do dân chủ nào.
-Chúng thi hành những luật pháp dã man. Chúng lập ba chế độ khác nhau ở Trung, Nam, Bắc để ngăn cản việc thống nhất nước nhà của ta, để ngăn cản dân tộc ta đoàn kết.
-Chúng lập ra nhà tù nhiều hơn trường học. Chúng thẳng tay chém giết những người yêu nước thương nòi của ta. Chúng tắm các cuộc khởi nghĩa của ta trong những bể máu.
-Chúng ràng buộc dư luận, thi hành chính sách ngu dân.
-Chúng dùng thuốc phiện, rượu cồn để làm cho nòi giống ta suy nhược.
-Về kinh tế, chúng bóc lột dân ta đến tận xương tủy, khiến cho dân ta nghèo nàn, thiếu thốn, nước ta xơ xác, tiêu điều.
-Chúng cướp không ruộng đất, hầm mỏ, nguyên liệu.
-Chúng giữ độc quyền in giấy bạc, xuất cảng và nhập cảng.
-Chúng đặt ra hàng trăm thứ thuế vô lý, làm cho dân ta, nhất là dân cày và dân buôn, trở nên bần cùng.
-Chúng không cho các nhà tư sản ta ngóc đầu lên. Chúng bóc lột công nhân ta một cách vô cùng tàn nhẫn.
-Mùa thu năm 1940, phát-xít Nhật đến xâm lăng Đông - Dương để mở thêm căn cứ đánh Đồng minh, thì bọn thực dân Pháp quỳ gối đầu hàng, mở cửa nước ta rước Nhật. Từ đó dân ta chịu hai tầng xiềng xích: Pháp và Nhật. Từ đó dân ta càng cực khổ, nghèo nàn. Kết quả là cuối năm ngoái sang đầu năm nay, từ Quảng trị đến Bắc kỳ hơn hai triệu đồng bào ta bị chết đói.
-Ngày 9 tháng 3 năm nay, Nhật tước khí giới của quân đội Pháp. Bọn thực dân Pháp hoặc bỏ chạy hoặc đầu hàng. Thế là chẳng những chúng không "bảo hộ" được ta, trái lại, trong 5 năm, chúng đã bán nước ta hai lần cho Nhật.
-Trước ngày mồng 9 tháng 3, biết bao lần Việt minh đã kêu gọi người Pháp liên minh để chống Nhật. Bọn thực dân Pháp đã không đáp ứng, lại thẳng tay khủng bố Việt minh hơn nữa.
-Thậm chí đến khi thua chạy, chúng còn nhẫn tâm giết nốt số đông tù chính trị ở Yên Bái và Cao Bằng.
-Tuy vậy, đối với nước Pháp, đồng bào ta vẫn giữ một thái độ khoan hồng và nhân đạo. Sau cuộc biến động ngày mồng 9 tháng 3, Việt minh đã giúp cho nhiều người Pháp chạy qua biên thùy, lại cứu cho nhiều người Pháp ra khỏi nhà giam Nhật, và bảo vệ tính mạng và tài sản cho họ.
-Sự thật là từ mùa thu năm 1940, nước ta đã thành thuộc địa của Nhật, chứ không phải thuộc địa của Pháp nữa. Khi Nhật hàng Đồng minh thì nhân dân cả nước ta đã nổi dậy giành chính quyền lập nên nước Việt Nam Dân chủ Cộng hòa.
-Sự thật là dân ta đã lấy lại nước Việt Nam từ tay Nhật, chứ không phải từ tay Pháp.
-Pháp chạy, Nhật hàng, vua Bảo Đại thoái vị. Dân ta đã đánh đổ các xiềng xích thực dân gần một trăm năm nay để gây dựng nên nước Việt Nam độc lập. Dân ta lại đánh đổ chế độ quân chủ mấy mươi thế kỷ mà lập nên chế độ dân chủ cộng hòa.
-Bởi thế cho nên, chúng tôi, Lâm thời Chính phủ của nước Việt Nam mới, đại biểu cho toàn dân Việt Nam, tuyên bố thoát ly hẳn quan hệ với Pháp, xóa bỏ hết những hiệp ước mà Pháp đã ký về nước Việt Nam, xóa bỏ tất cả mọi đặc quyền của Pháp trên đất nước Việt Nam.
-Toàn dân Việt Nam, trên dưới một lòng, kiên quyết chống lại âm mưu của bọn thực dân Pháp.
-Chúng tôi tin rằng các nước Đồng minh đã công nhận những nguyên tắc dân tộc bình đẳng ở các Hội nghị Tê-hê-răng và Cựu-kim-sơn, quyết không thể không công nhận quyền độc lập của dân Việt Nam.
-Một dân tộc đã gan góc chống ách nô lệ của Pháp hơn tám mươi năm nay, một dân tộc đã gan góc đứng về phe Đồng minh chống phát-xít mấy năm nay, dân tộc đó phải được tự do ! Dân tộc đó phải được độc lập !
-Vì những lẽ trên, chúng tôi, Chính phủ Lâm thời của nước Việt Nam Dân chủ Cộng hòa, trịnh trọng tuyên bố với thế giới rằng:
-Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do, độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy.</noiDungVanBan>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu20">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 19/12/1946</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh đọc lời kêu gọi toàn quốc kháng chiến</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/02_HCM_DocLoiKeuGoiToanQuocKhangChien_.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</thoiLuong>
-  <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào toàn quốc! Chúng ta muốn hoà bình, chúng ta đã nhân nhượng. Nhưng chúng ta càng nhân nhượng, thực dân Pháp càng lấn tới, vì chúng quyết tâm cướp nước ta một lần nữa! Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ. Hỡi đồng bào! Chúng ta phải đứng lên! Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp, cứu Tổ quốc. Ai có súng dùng súng. Ai có gươm dùng gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc. Ai cũng phải ra sức chống thực dân Pháp cứu nước. Hỡi anh em binh sĩ, tự vệ, dân quân! Giờ cứu quốc đã đến. Ta phải hy sinh đến giọt máu cuối cùng, để giữ gìn đất nước. Dù phải gian khổ kháng chiến, nhưng với một lòng kiên quyết hy sinh, thắng lợi nhất định về dân tộc ta! Việt Nam độc lập và thống nhất muôn năm Kháng chiến thắng lợi muôn năm</noiDungVanBan>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu21">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 31/12/1959</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại cuộc mít tinh của nhân dân thủ đô Hà Nội sau khi kỳ họp Quốc hội khóa I thông qua bản Hiến pháp mới</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/03_HCM_NoiChuyenTaiCuocMitTinhCuaNhanDanThuDo.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu22">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ngày 5/1/1960</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh phát biểu tại Lễ kỷ niệm 30 năm thành lập Đảng Cộng sản Việt Nam (3/2/1930 - 3/2/1960) tại thủ đô Hà Nội</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/04_HCM_PhatBieuTaiLeKyNiemLanThu30NamNgayTLDLDVN.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">691</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu23">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 9/3/1960</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại Đại hội Phụ nữ toàn quốc lần thứ III</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/05_HCM_NoiChuyenTaiDaiHoiPhuNuToanQuocLanThu3.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">592</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu24">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngày 17/7/1966</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh đọc Lời kêu gọi toàn quốc chống Mỹ cứu nước</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/08_HCM_DocLoiKeuGoiChongMyCuuNuoc.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243</thoiLuong>
-  <noiDungVanBan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hỡi đồng bào và chiến sĩ cả nước! Đế quốc Mỹ dã man, gây ra chiến tranh xâm lược hòng ǎn cướp nước ta, nhưng chúng đang thua to. Chúng ồ ạt mang gần 30 vạn quân viễn chinh vào miền Nam nước ta. Chúng nuôi dưỡng nguỵ quyền nguỵ quân làm công cụ hại dân phản nước. Chúng dùng những phương tiện chiến tranh cực kỳ man rợ, như chất độc hoá học, bom napan, v.v.. Chúng dùng chính sách đốt sạch, giết sạch, phá sạch. Bằng những tội ác ấy, chúng hòng khuất phục đồng bào miền Nam ta. Nhưng dưới sự lãnh đạo kiên quyết và khôn khéo của Mặt trận dân tộc giải phóng, quân và dân miền Nam ta đoàn kết chặt chẽ, chiến đấu anh dũng, đã thắng lợi vẻ vang và quyết tâm chiến đấu đến thắng lợi hoàn toàn, để giải phóng miền Nam, bảo vệ miền Bắc, tiến tới thống nhất nước nhà. ........... Chiến tranh có thể kéo dài 5 năm, 10 năm, 20 năm hoặc lâu hơn nữa, Hà Nội, Hải Phòng và một số thành phố, xí nghiệp có thể bị tàn phá, song nhân dân Việt Nam quyết không sợ, không có gì quý hơn độc lập tự do! ....... Đồng bào và chiến sĩ yêu quý! Chúng ta có chính nghĩa, có sức mạnh đoàn kết của toàn dân từ Bắc đến Nam, có truyền thống đấu tranh bất khuất, lại có sự đồng tình ủng hộ rộng lớn của các nước xã hội chủ nghĩa anh em và nhân dân tiến bộ cả thế giới, chúng ta nhất định thắng! Trước tình hình mới, chúng ta quyết đồng tâm nhất trí, vượt mọi gian khổ hy sinh, kiên quyết hoàn thành nhiệm vụ lịch sử vẻ vang của dân tộc ta là đánh thắng giặc Mỹ xâm lược! ... Nhân dân Việt Nam nhất định thắng! Giặc Mỹ xâm lược nhất định thua! Việt Nam hoà bình, thống nhất, độc lập, dân chủ và giàu mạnh muôn nǎm! Đồng bào và chiến sĩ cả nước, anh dũng tiến lên!</noiDungVanBan>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu25">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1968</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới Mậu Thân</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/09_HCM_ChucMungNamMoiMauThan1968.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu26">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1969</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới Kỷ Dậu</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/10_HCM_DocThuChucMungNamMoi1969.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu27">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1955</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ Chủ tịch chúc mừng năm mới</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/04%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201955.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu28">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1957</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/06%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%20%20xuan%20Dinh%20Dau%201957.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu29">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1958</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/07%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201958.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu30">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1962</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới xuân Nhâm Dần</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/09%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Nham%20Dan%201962.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu31">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1963</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời chúc tết đồng bào nhân dịp đầu xuân Quý Mão</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/10%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Quy%20Mao%201963.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu32">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1964</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lời chúc tết đồng bào nhân dịp đầu xuân Giáp Thìn</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/11%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Giap%20Thin%201964.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu33">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1967</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc mừng năm mới</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/12%20-%20Ho%20Chu%20Tich%20chuc%20%20mung%20nam%20moi%201967.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu34">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1956</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hồ chủ tịch chúc mừng năm mới</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/05%20-%20Ho%20Chu%20Tich%20chuc%20mung%20nam%20moi%201956.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu35">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1961</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bác Hồ chúc Tết đồng bào nhân dịp đầu xuân Tân Sửu</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/08%20-%20Ho%20Chu%20Tich%20chuc%20Tet%20xuan%20Tan%20Suu%201961.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</thoiLuong>
-</BaiPhatBieu>
-
-<BaiPhatBieu rdf:about="#baiphatbieu36">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <thoiGian rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Năm 1961</thoiGian>
-  <suKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chủ tịch Hồ Chí Minh nói chuyện tại Đại hội đại biểu Phụ nữ toàn quốc lần thứ III</suKien>
-  <lienKet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://hochiminh.vn/Uploads/Media/audio/18%20-%20Bai%20noi%20chuyen%20tai%20dai%20hoi%20Phu%20nu%20toan%20quoc%20lan%20III.mp3</lienKet>
-  <thoiLuong rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540</thoiLuong>
-</BaiPhatBieu>
 
 
 </rdf:RDF>
